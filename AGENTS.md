@@ -1,254 +1,66 @@
-# AGENTS.md
+# AGENTS.md — Rayanne Gama Imóveis
 
-Guidelines for AI agents working in this repository.
+> Este arquivo orienta agentes de IA sobre como operar neste repositório.
+> Leia este arquivo antes de qualquer tarefa de marketing.
 
-## Repository Overview
+## Identidade do Projeto
 
-This repository contains **Agent Skills** for AI agents following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.
+Este repositório contém skills de marketing especializadas para a **Rayanne Gama Imóveis**, uma imobiliária localizada na região de Campinas/SP, Brasil. Todo conteúdo gerado deve refletir o posicionamento, o tom de voz e os objetivos comerciais desta imobiliária.
 
-- **Name**: Marketing Skills
-- **GitHub**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
-- **Creator**: Corey Haines
-- **License**: MIT
+## Regras Gerais
 
-## Repository Structure
+1. **Sempre leia o contexto mestre primeiro:** `context/product-marketing-context-rayanne-ptbr.md`
+2. **Nunca invente dados:** Se não houver informação suficiente nos inputs, pergunte antes de gerar.
+3. **Idioma:** Todo output de marketing deve ser em **PT-BR**, com vocabulário imobiliário brasileiro.
+4. **Tom:** Profissional, acolhedor, direto. Sem exageros, superlativos vazios ou clichês de anúncio.
+5. **CTA obrigatório:** Todo ativo de marketing (copy, post, anúncio, landing) deve ter um CTA claro — WhatsApp, formulário ou agendamento.
+6. **Persona:** Sempre identifique a persona-alvo antes de gerar qualquer conteúdo.
+7. **Canal:** Adapte linguagem, tamanho e formato ao canal especificado no input.
 
-```
-marketingskills/
-├── .claude-plugin/
-│   └── marketplace.json   # Claude Code plugin marketplace manifest
-├── skills/                # Agent Skills
-│   └── skill-name/
-│       └── SKILL.md       # Required skill file
-├── tools/
-│   ├── clis/              # Zero-dependency Node.js CLI tools (51 tools)
-│   ├── composio/          # Composio integration layer (quick start + toolkit mapping)
-│   ├── integrations/      # API integration guides per tool
-│   └── REGISTRY.md        # Tool index with capabilities
-├── CONTRIBUTING.md
-├── LICENSE
-└── README.md
-```
+## Palavras e Expressões a Evitar
 
-## Build / Lint / Test Commands
+- "Realize o sonho da casa própria" — clichê
+- "Oportunidade única" — sem evidência
+- "Não perca!" — sensacionalismo
+- "O melhor da região" — sem prova
+- Termos em inglês no copy final (ex: "lifestyle", "home office" — use versão PT-BR quando possível)
 
-**Skills** are content-only (no build step). Verify manually:
-- YAML frontmatter is valid
-- `name` field matches directory name exactly
-- `name` is 1-64 chars, lowercase alphanumeric and hyphens only
-- `description` is 1-1024 characters
+## Funil de Conversão
 
-**CLI tools** (`tools/clis/*.js`) are zero-dependency Node.js scripts (Node 18+). Verify with:
-```bash
-node --check tools/clis/<name>.js   # Syntax check
-node tools/clis/<name>.js           # Show usage (no args = help)
-node tools/clis/<name>.js <cmd> --dry-run  # Preview request without sending
-```
-
-## Agent Skills Specification
-
-Skills follow the [Agent Skills spec](https://agentskills.io/specification.md).
-
-### Required Frontmatter
-
-```yaml
----
-name: skill-name
-description: What this skill does and when to use it. Include trigger phrases.
----
-```
-
-### Frontmatter Field Constraints
-
-| Field         | Required | Constraints                                                      |
-|---------------|----------|------------------------------------------------------------------|
-| `name`        | Yes      | 1-64 chars, lowercase `a-z`, numbers, hyphens. Must match dir.   |
-| `description` | Yes      | 1-1024 chars. Describe what it does and when to use it.          |
-| `license`     | No       | License name (default: MIT)                                      |
-| `metadata`    | No       | Key-value pairs (author, version, etc.)                          |
-
-### Name Field Rules
-
-- Lowercase letters, numbers, and hyphens only
-- Cannot start or end with hyphen
-- No consecutive hyphens (`--`)
-- Must match parent directory name exactly
-
-**Valid**: `cro`, `emails`, `ab-testing`
-**Invalid**: `Page-CRO`, `-page`, `page--cro`
-
-### Optional Skill Directories
+O funil da Rayanne Gama Imóveis tem as seguintes etapas e eventos:
 
 ```
-skills/skill-name/
-├── SKILL.md        # Required - main instructions (<500 lines)
-├── references/     # Optional - detailed docs loaded on demand
-├── scripts/        # Optional - executable code
-└── assets/         # Optional - templates, data files
+Descoberta → Consideração → Intenção → Proposta → Venda
+    ↓              ↓            ↓          ↓         ↓
+view_listing  click_whatsapp  schedule  proposal   sale
+              form_submit     visit     _sent      _closed
+                              request
+                              _simulation
 ```
 
-## Writing Style Guidelines
+Todo conteúdo deve ser orientado a mover o lead para a próxima etapa do funil.
 
-### Structure
+## Uso das Skills
 
-- Keep `SKILL.md` under 500 lines (move details to `references/`)
-- Use H2 (`##`) for main sections, H3 (`###`) for subsections
-- Use bullet points and numbered lists liberally
-- Short paragraphs (2-4 sentences max)
+- Antes de usar uma skill, verifique se o status é `approved` no frontmatter do SKILL.md
+- Skills com status `draft` ou `review` não devem ser usadas em produção
+- Se a skill mais adequada ainda não existe ou está em draft, sinalize e use o melhor julgamento baseado no contexto mestre
 
-### Tone
+## Avaliação de Output
 
-- Direct and instructional
-- Second person ("You are a conversion rate optimization expert")
-- Professional but approachable
+Todo output gerado deve ser auto-avaliado antes de ser entregue, usando a rubrica em `evals/rubrica-geral.md`. Se o score estimado for abaixo de 7.0 em qualquer critério crítico, refaça antes de entregar.
 
-### Formatting
+## Quando Pedir Ajuda
 
-- Bold (`**text**`) for key terms
-- Code blocks for examples and templates
-- Tables for reference data
-- No excessive emojis
+Peça input humano quando:
+- O contexto mestre não tiver informação suficiente para a tarefa
+- A persona alvo não estiver clara
+- O canal ou objetivo não estiver especificado
+- O output envolver dados reais de preço, localização ou características do imóvel
 
-### Clarity Principles
+## Contato dos Responsáveis
 
-- Clarity over cleverness
-- Specific over vague
-- Active voice over passive
-- One idea per section
-
-### Description Field Best Practices
-
-The `description` is critical for skill discovery. Include:
-1. What the skill does
-2. When to use it (trigger phrases)
-3. Related skills for scope boundaries
-
-```yaml
-description: When the user wants to optimize conversions on any marketing page. Use when the user says "CRO," "conversion rate optimization," "this page isn't converting." For signup flows, see signup.
-```
-
-## Claude Code Plugin
-
-This repo also serves as a plugin marketplace. The manifest at `.claude-plugin/marketplace.json` lists all skills for installation via:
-
-```bash
-/plugin marketplace add coreyhaines31/marketingskills
-/plugin install marketing-skills
-```
-
-See [Claude Code plugins documentation](https://code.claude.com/docs/en/plugins.md) for details.
-
-## Git Workflow
-
-### Branch Naming
-
-- New skills: `feature/skill-name`
-- Improvements: `fix/skill-name-description`
-- Documentation: `docs/description`
-
-### Commit Messages
-
-Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
-
-- `feat: add skill-name skill`
-- `fix: improve clarity in cro`
-- `docs: update README`
-
-### Pull Request Checklist
-
-- [ ] `name` matches directory name exactly
-- [ ] `name` follows naming rules (lowercase, hyphens, no `--`)
-- [ ] `description` is 1-1024 chars with trigger phrases
-- [ ] `SKILL.md` is under 500 lines
-- [ ] No sensitive data or credentials
-
-## Tool Integrations
-
-This repository includes a tools registry for agent-compatible marketing tools.
-
-- **Tool discovery**: Read `tools/REGISTRY.md` to see available tools and their capabilities
-- **Integration details**: See `tools/integrations/{tool}.md` for API endpoints, auth, and common operations
-- **MCP-enabled tools**: ga4, stripe, mailchimp, google-ads, resend, zapier, zoominfo, clay, supermetrics, coupler, outreach, crossbeam, introw, composio
-- **Composio** (integration layer): Adds MCP access to OAuth-heavy tools without native MCP servers (HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, etc.). See `tools/integrations/composio.md`
-
-### Registry Structure
-
-```
-tools/
-├── REGISTRY.md              # Index of all tools with capabilities
-└── integrations/            # Detailed integration guides
-    ├── ga4.md
-    ├── stripe.md
-    ├── rewardful.md
-    └── ...
-```
-
-### When to Use Tools
-
-Skills reference relevant tools for implementation. For example:
-- `referrals` skill → rewardful, tolt, dub-co, mention-me guides
-- `analytics` skill → ga4, mixpanel, segment guides
-- `emails` skill → customer-io, mailchimp, resend guides
-- `ads` skill → google-ads, meta-ads, linkedin-ads guides
-
-For tools without native MCP servers (HubSpot, Salesforce, Meta Ads, LinkedIn Ads, Google Sheets, Slack, Notion), Composio provides MCP access via a single server. See `tools/integrations/composio.md` for setup and `tools/composio/marketing-tools.md` for the full toolkit mapping.
-
-## Checking for Updates
-
-When using any skill from this repository:
-
-1. **Once per session**, on first skill use, check for updates:
-   - Fetch `VERSIONS.md` from GitHub: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/VERSIONS.md
-   - Compare versions against local skill files
-
-2. **Only prompt if meaningful**:
-   - 2 or more skills have updates, OR
-   - Any skill has a major version bump (e.g., 1.x to 2.x)
-
-3. **Non-blocking notification** at end of response:
-   ```
-   ---
-   Skills update available: X marketing skills have updates.
-   Say "update skills" to update automatically, or run `git pull` in your marketingskills folder.
-   ```
-
-4. **If user says "update skills"**:
-   - Run `git pull` in the marketingskills directory
-   - Confirm what was updated
-
-## Skill Categories
-
-See `README.md` for the current list of skills organized by category. When adding new skills, follow the naming patterns of existing skills in that category.
-
-## Claude Code-Specific Enhancements
-
-These patterns are **Claude Code only** and must not be added to `SKILL.md` files directly, as skills are designed to be cross-agent compatible (Codex, Cursor, Windsurf, etc.). Apply them locally in your own project's `.claude/skills/` overrides instead.
-
-### Dynamic content injection with `!`command``
-
-Claude Code supports embedding shell commands in SKILL.md using `` !`command` `` syntax. When the skill is invoked, Claude Code runs the command and injects the output inline — the model sees the result, not the instruction.
-
-**Most useful application: auto-inject the product marketing context file**
-
-Instead of every skill telling the agent "go check if `.agents/product-marketing.md` exists and read it," you can inject it automatically:
-
-```markdown
-Product context: !`cat .agents/product-marketing.md 2>/dev/null || echo "No product context file found — ask the user about their product before proceeding."`
-```
-
-Place this at the top of a skill's body (after frontmatter) to make context available immediately without any file-reading step.
-
-**Other useful injections:**
-
-```markdown
-# Inject today's date for recency-sensitive skills
-Today's date: !`date +%Y-%m-%d`
-
-# Inject current git branch (useful for workflow skills)
-Current branch: !`git branch --show-current 2>/dev/null`
-
-# Inject recent commits for context
-Recent commits: !`git log --oneline -5 2>/dev/null`
-```
-
-**Why this is Claude Code-only**: Other agents that load skills will see the literal `` !`command` `` string rather than executing it, which would appear as garbled instructions. Keep cross-agent skill files free of this syntax.
+| Papel | Responsável |
+|-------|------------|
+| Arquitetura e IA | Automab.dev |
+| Validação comercial | Rayanne Gama Imóveis |
