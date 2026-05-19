@@ -1,0 +1,73 @@
+{
+    "skill_name": "ai-seo-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quais são as principais palavras-chave que a Rayanne Gama Imóveis deve trabalhar em SEO para Praia Grande?",
+            "expected_output": "Deve identificar clusters de palavras-chave: por tipo de imóvel (apartamento, casa, terreno), por cidade (Praia Grande, São Vicente, Santos, Mongaguá), por situação (financiamento, FGTS, MCMV, primeiro imóvel), por intenção (comprar, alugar, investir). Deve incluir intenções do contexto mestre. Deve priorizar termos com alta intenção de compra. Deve mencionar schema RealEstateListing.",
+            "assertions": [
+                "Lista palavras-chave por cluster (tipo, cidade, situação)",
+                "Inclui 'apartamento à venda Praia Grande'",
+                "Inclui termos de financiamento/MCMV",
+                "Inclui cidades secundárias (São Vicente, Santos, Mongaguá)",
+                "Menciona schema markup RealEstateListing",
+                "Prioriza intenção de compra"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como deve ser o título e a meta description da página de um apartamento de 2 dormitórios à venda no Boqueirão, Praia Grande, por R$ 280.000?",
+            "expected_output": "Deve gerar title tag com palavra-chave principal, número de dormitórios, bairro, cidade e valor (dentro de 60 caracteres). Meta description deve ser atraente, mencionar financiamento e CTA implícito. Deve seguir boas práticas: sem duplicação, palavra-chave no início do title.",
+            "assertions": [
+                "Title tag com até 60 caracteres",
+                "Title inclui '2 dormitórios', 'Boqueirão', 'Praia Grande'",
+                "Meta description dentro de 155 caracteres",
+                "Meta description menciona financiamento",
+                "Palavra-chave principal no início do title"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Crie a estrutura de heading (H1, H2, H3) para uma página de apartamento à venda em Praia Grande com foco em SEO.",
+            "expected_output": "Deve gerar H1 único com a palavra-chave principal. H2s cobrindo: descrição do imóvel, localização, condições de financiamento, sobre a imobiliária. H3s para subtópicos dentro de cada H2. Deve ser coerente com o schema RealEstateListing. Deve evitar keyword stuffing.",
+            "assertions": [
+                "H1 único com palavra-chave principal",
+                "H2s incluem descrição, localização, financiamento",
+                "H3s são subtópicos lógicos",
+                "Sem keyword stuffing",
+                "Estrutura compatível com RealEstateListing"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Quais são os 5 erros de SEO mais comuns que imobiliárias cometem e como a Rayanne Gama pode evitá-los?",
+            "expected_output": "Deve listar erros específicos do nicho imobiliário: páginas duplicadas por tipo de imóvel, sem schema markup, title tags genéricos, falta de conteúdo textual nas páginas de listagem, sem otimização para SEO local (Google Business Profile). Para cada erro, deve sugerir solução prática aplicável à Rayanne Gama.",
+            "assertions": [
+                "Lista 5 erros específicos do nicho imobiliário",
+                "Menciona schema markup como solução",
+                "Menciona Google Business Profile / SEO local",
+                "Menciona title tags genéricos como problema",
+                "Cada erro tem solução prática",
+                "Soluções aplicáveis ao contexto da Rayanne Gama"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Me ajuda a criar um cluster de conteúdo sobre 'financiamento imobiliário' para o blog da Rayanne Gama Imóveis.",
+            "expected_output": "Deve criar cluster com: página pilar sobre financiamento imobiliário + artigos satélite (FGTS, MCMV, simulação, documentação, aprovação de crédito). Deve definir link interno entre os artigos. Deve sugerir palavras-chave para cada artigo. Deve orientar sobre frequência de publicação.",
+            "assertions": [
+                "Cria estrutura de cluster (pilar + satélites)",
+                "Página pilar sobre financiamento imobiliário",
+                "Artigos satélite incluem FGTS e MCMV",
+                "Menciona link internal entre artigos",
+                "Palavras-chave sugeridas para cada artigo",
+                "Frequência de publicação sugerida"
+            ],
+            "files": []
+        }
+    ]
+}

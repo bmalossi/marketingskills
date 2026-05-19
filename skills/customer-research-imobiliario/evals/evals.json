@@ -1,0 +1,45 @@
+{
+    "skill_name": "customer-research-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis pode entender melhor o que impede seus leads de fechar negócio? Sugira métodos de pesquisa.",
+            "expected_output": "Deve sugerir métodos práticos: entrevista pós-atendimento (5 perguntas), pesquisa de satisfação no WhatsApp, análise de perguntas mais frequentes, mapeamento de motivos de perda no CRM. Deve recomendar quando aplicar cada método. Deve ser realizável sem custo alto para uma imobiliária de médio porte.",
+            "assertions": [
+                "Sugere ao menos 3 métodos de pesquisa",
+                "Inclui entrevista pós-atendimento",
+                "Inclui análise de dúvidas frequentes no WhatsApp",
+                "Inclui mapeamento de motivos de perda",
+                "Métodos realizáveis sem alto custo",
+                "Define quando aplicar cada método"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie um roteiro de 5 perguntas para entrevistar clientes que compraram imóvel com a Rayanne Gama e entender o que os fez escolher essa imobiliária.",
+            "expected_output": "Deve criar 5 perguntas abertas e conversacionais. Deve cobrir: como conheceu a imobiliária, o que diferenciou, principais dificuldades no processo, o que poderia ter sido melhor, se indicaria. Tom amigável, não parece formulário. Perguntas não devem ser leading (induzir resposta).",
+            "assertions": [
+                "5 perguntas abertas e conversacionais",
+                "Cobre canal de descoberta, diferencial, dificuldades e NPS",
+                "Tom amigável",
+                "Perguntas não são leading",
+                "Formato de roteiro de entrevista"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Quais são as principais dores e objeções do comprador de primeiro imóvel em Praia Grande que a Rayanne Gama deve conhecer?",
+            "expected_output": "Deve listar dores do segmento: medo de perder a entrada, não saber se o crédito vai ser aprovado, processo parece complicado, não entender o FGTS e MCMV, medo de ser enganado por imobiliária. Para cada dor, deve sugerir como o conteúdo ou o atendimento da Rayanne Gama pode responder. Deve referenciar o contexto mestre.",
+            "assertions": [
+                "Lista ao menos 5 dores específicas do comprador de primeiro imóvel",
+                "Inclui objeções do contexto mestre (crédito, entrada, processo)",
+                "Sugere como responder cada dor",
+                "Conecta com os diferenciais da Rayanne Gama (correspondente bancário, atendimento humano)",
+                "Menciona Praia Grande como contexto"
+            ],
+            "files": []
+        }
+    ]
+}

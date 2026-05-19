@@ -1,0 +1,31 @@
+{
+    "skill_name": "lead-magnets-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Sugira 5 ideias de lead magnet para a Rayanne Gama Imóveis capturar emails de compradores de primeiro imóvel.",
+            "expected_output": "Deve sugerir lead magnets práticos e relevantes: guia de financiamento pelo MCMV, calculadora de parcelas, checklist de documentação, e-book 'passo a passo para comprar o primeiro imóvel em Praia Grande', webinar 'como usar o FGTS'. Cada ideia com nome, formato e por que é relevante para a persona.",
+            "assertions": [
+                "5 ideias de lead magnet",
+                "Relevante para persona de primeiro imóvel",
+                "Inclui pelo menos 1 sobre MCMV ou FGTS",
+                "Cada ideia com nome e formato",
+                "Formatos realizáveis para imobiliária de médio porte"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie a estrutura de uma 'calculadora de financiamento simplificada' como lead magnet para o site da Rayanne Gama Imóveis.",
+            "expected_output": "Deve definir: inputs (valor do imóvel, entrada disponível, renda bruta mensal), outputs (parcela estimada, prazo sugerido, elegibilidade MCMV), CTA pós-resultado (falar com correspondente bancário). Deve indicar que a calculadora é uma estimativa e que o correspondente valida o crédito real.",
+            "assertions": [
+                "Define inputs: valor, entrada, renda",
+                "Define outputs: parcela estimada, prazo",
+                "Inclui verificação de elegibilidade MCMV",
+                "CTA pós-resultado para correspondente bancário",
+                "Disclaimer de estimativa"
+            ],
+            "files": []
+        }
+    ]
+}

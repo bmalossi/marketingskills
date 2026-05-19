@@ -1,0 +1,74 @@
+{
+    "skill_name": "ad-creative-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie o copy de um anúncio para Meta Ads (Facebook/Instagram) de um apartamento de 2 dormitórios em Caiçara, Praia Grande, por R$ 295.000, com financiamento disponível. Público: compradores de primeiro imóvel.",
+            "expected_output": "Deve gerar headline, texto primário e descrição. Headline deve ser direto e específico (não genérico). Texto primário deve mencionar localização, tipologia, valor e condição de financiamento. Deve incluir correspondente bancário como facilitador. CTA deve ser WhatsApp ou formulário. Tom: próximo, honesto, sem superlativos. Deve ter CTR potencial alto (gancho real, não jargão).",
+            "assertions": [
+                "Gera headline, texto primário e descrição separados",
+                "Menciona Caiçara, Praia Grande, 2 dormitórios, R$ 295.000",
+                "Menciona financiamento como facilitador",
+                "CTA direciona para WhatsApp ou formulário",
+                "Não usa 'oportunidade única', 'realize o sonho' ou similares",
+                "Tom próximo e honesto",
+                "Headline tem gancho específico"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quero criar anúncios Google Ads (search) para 'apartamento à venda Praia Grande SP'. Me dá 3 variações de headline e 2 de descrição.",
+            "expected_output": "Deve gerar 3 headlines dentro do limite de caracteres do Google Ads (máximo 30 caracteres cada). Deve gerar 2 descrições (máximo 90 caracteres cada). Deve incluir palavras-chave relevantes. Deve diferenciar a Rayanne Gama da concorrência genérica. Pelo menos uma variação deve mencionar correspondente bancário ou financiamento facilitado.",
+            "assertions": [
+                "Gera 3 headlines (máximo 30 caracteres cada)",
+                "Gera 2 descrições (máximo 90 caracteres cada)",
+                "Inclui palavra-chave 'Praia Grande'",
+                "Diferencia com correspondente bancário ou atendimento",
+                "Headlines são específicos (não genéricos)"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Preciso de copy para um anúncio de remarketing no Instagram para pessoas que visitaram a página do site mas não entraram em contato. Produto: apartamentos de 2 dormitórios em Praia Grande.",
+            "expected_output": "Deve reconhecer que é remarketing (pessoa já conhece o produto). Tom deve ser diferente do prospecting — mais próximo, recordando o interesse. Deve criar senso de oportunidade real (ex: novas unidades, novos preços). CTA deve ser de retorno: 'ainda está procurando?', 'posso te ajudar a simular?'. Sem pressão excessiva.",
+            "assertions": [
+                "Adapta o tom para remarketing (pessoa já conhece)",
+                "Tom mais próximo, sem pressão excessiva",
+                "Menciona retomar o interesse de forma natural",
+                "CTA de reconexão (não de primeiro contato)",
+                "Menciona Praia Grande e tipologia"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Crie copy para um anúncio de imóvel de alto padrão em Santos (R$ 1,2M, 3 suítes, frente ao mar) para investidores.",
+            "expected_output": "Deve ajustar o tom para alto padrão: mais sofisticado, menos coloquial, porém ainda direto. Deve destacar localização exclusiva (frente ao mar), tipologia premium e potencial de investimento. CTA deve ser mais exclusivo ('agende uma visita privativa'). Sem termos populares como 'FGTS' ou 'MCMV' — fora do perfil.",
+            "assertions": [
+                "Tom mais sofisticado sem ser frio",
+                "Destaca localização exclusiva (frente ao mar)",
+                "Não menciona FGTS ou MCMV",
+                "CTA de visita privativa ou contato exclusivo",
+                "Menciona Santos e o valor de R$ 1,2M",
+                "Linguagem orientada para investimento"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Qual o formato ideal de anúncio para Meta Ads para vender imóveis MCMV para famílias de baixa renda em Mongaguá?",
+            "expected_output": "Deve recomendar formato de vídeo curto ou carrossel com imagens reais do imóvel. Deve explicar por que vídeo performa melhor nesse público. Copy deve ser extremamente simples e acessível. Deve mencionar facilidade do MCMV e que a imobiliária ajuda em toda a documentação. Tom acolhedor e empático. Deve orientar sobre imagens (sem muito texto na imagem, conforme política Meta).",
+            "assertions": [
+                "Recomenda formato (vídeo ou carrossel)",
+                "Justifica a escolha do formato",
+                "Copy simples e acessível para o público",
+                "Menciona MCMV e facilitação da documentação",
+                "Menciona Mongaguá",
+                "Menciona limite de texto em imagens Meta Ads"
+            ],
+            "files": []
+        }
+    ]
+}

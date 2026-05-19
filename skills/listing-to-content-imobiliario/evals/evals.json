@@ -1,0 +1,46 @@
+{
+    "skill_name": "listing-to-content-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Transforme esta ficha de imóvel em conteúdo para Instagram: 'Apto 2d 1s 1vg 65m² Caiçara PG R$295k FGTS aceito varanda vista mar'.",
+            "expected_output": "Deve interpretar a ficha técnica e criar: post para feed (legenda com gancho, detalhes humanizados, CTA), sugestão de stories sequenciais, sugestão de título para carrossel. Conteúdo deve traduzir os atributos técnicos em benefícios ('65m² = espaço para toda a família', 'vista mar = qualidade de vida'). Tom próximo.",
+            "assertions": [
+                "Interpreta sigle/abreviações corretamente (2d=2 dormitórios, 1s=1 suíte)",
+                "Transforma atributos técnicos em benefícios",
+                "Cria pelo menos 1 legenda para feed",
+                "Menciona Caiçara, Praia Grande, R$ 295.000",
+                "Menciona FGTS aceito como facilitador",
+                "Tom próximo e sem jargão técnico"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Transforme esta ficha em descrição para o site: 'Casa 4d 2s 2vg 250m² terreno 500m² Praia Grande interior R$850k financiamento disponível'.",
+            "expected_output": "Deve criar descrição de 2–3 parágrafos para página de imóvel. Parágrafo 1: apresentação geral e destaque emocional. Parágrafo 2: detalhes técnicos em linguagem clara. Parágrafo 3: condições e CTA. Deve mencionar financiamento disponível. Tom: empolgante mas honesto. Google Friendly (texto único, sem keyword stuffing).",
+            "assertions": [
+                "2-3 parágrafos fluentes",
+                "Traduz abreviações para linguagem clara",
+                "Menciona Praia Grande, 4 dormitórios, 2 suítes, 250m²",
+                "Menciona terreno de 500m² como diferencial",
+                "Menciona financiamento disponível",
+                "CTA no último parágrafo"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Como usar o portfólio de imóveis para criar conteúdo educativo para o Instagram? Dê 3 exemplos com imóveis da Rayanne Gama.",
+            "expected_output": "Deve mostrar como extrair tema educativo de um imóvel real: imóvel MCMV → post sobre Minha Casa Minha Vida; imóvel frente ao mar → post sobre valorização na Baixada Santista; imóvel com FGTS aceito → post sobre como usar o FGTS. Cada exemplo tem tema, format e gancho sugeridos.",
+            "assertions": [
+                "3 exemplos de conteúdo educativo extraídos de imóveis",
+                "Cada exemplo com tema, formato e gancho",
+                "Conecta características do imóvel ao tema educativo",
+                "Menciona MCMV, FGTS ou similares",
+                "Contexto de Praia Grande / Baixada Santista"
+            ],
+            "files": []
+        }
+    ]
+}

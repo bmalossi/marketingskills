@@ -1,0 +1,73 @@
+{
+    "skill_name": "launch-strategy-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quero lançar um empreendimento de apartamentos de 2 dormitórios em Guilhermina, Praia Grande, em agosto. São 40 unidades, faixa de R$ 320.000 a R$ 380.000, financiamento pela Caixa. Me ajuda a planejar o lançamento.",
+            "expected_output": "Deve ler o contexto mestre. Deve estruturar o lançamento em fases: pré-lançamento (lista de espera, aquecimento), lançamento (evento e comunicação), pós-lançamento (follow-up e conversão). Deve definir canais (Instagram, Facebook, WhatsApp, ZAP/VivaReal). Deve criar mensagem central coerente com o tom da marca. Deve incluir CTA de captação de leads (lista de interesse). Deve mencionar correspondente bancário como facilitador.",
+            "assertions": [
+                "Divide o lançamento em fases claras",
+                "Inclui pré-lançamento com captação de lista de interesse",
+                "Menciona canais: Instagram, Facebook, WhatsApp",
+                "Mensagem central clara e sem superlativos vazios",
+                "Menciona financiamento pela Caixa como facilitador",
+                "Inclui CTA por fase",
+                "Menciona Guilhermina, Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie uma página de lista de espera para um lançamento de apartamentos de alto padrão em Santos (R$ 900k+). Público: investidores e compradores de alto padrão.",
+            "expected_output": "Deve reconhecer persona de alto padrão/investidor. Deve criar estrutura de landing page: headline + proposta de valor + formulário de interesse. Tom deve ser mais sofisticado e exclusivo, sem ser arrogante. Deve ter CTA para entrar na lista VIP. Deve mencionar atendimento personalizado como diferencial.",
+            "assertions": [
+                "Identifica persona alto padrão/investidor",
+                "Estrutura headline + proposta de valor + formulário",
+                "Tom mais sofisticado, sem sensacionalismo",
+                "CTA para lista VIP ou contato exclusivo",
+                "Menciona Santos como localização",
+                "Menciona atendimento personalizado"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Qual seria a sequência de comunicação no WhatsApp para leads que se cadastraram na lista de espera de um lançamento de MCMV em Mongaguá?",
+            "expected_output": "Deve criar sequência de mensagens WhatsApp: boas-vindas, aquecimento com informações do produto, notificação de lançamento, follow-up pós-lançamento. Tom: informal, acolhedor, ágil. Deve mencionar MCMV e facilidade de aprovação. Cada mensagem tem CTA. Deve estar em PT-BR coloquial.",
+            "assertions": [
+                "Cria sequência de ao menos 4 mensagens",
+                "Tom informal e acolhedor para WhatsApp",
+                "Menciona MCMV e aprovação de crédito",
+                "Cada mensagem tem CTA claro",
+                "Linguagem PT-BR coloquial ('a gente', 'chama', etc.)",
+                "Menciona Mongaguá"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "me ajuda a criar um cronograma de lançamento",
+            "expected_output": "Deve solicitar as informações mínimas antes de gerar: produto/empreendimento, região, data ou janela de lançamento, público-alvo, objetivo comercial.",
+            "assertions": [
+                "Solicita informações mínimas",
+                "Pede ao menos produto, região e data",
+                "Não gera cronograma sem contexto"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Crie um roteiro de lives no Instagram para os 30 dias que antecedem o lançamento de um residencial em Praia Grande com 60 unidades MCMV.",
+            "expected_output": "Deve criar calendário de ao menos 4 lives com temas progressivos: apresentação do projeto, bairro e localização, financiamento e MCMV, tira-dúvidas ao vivo. Cada live tem tema, duração estimada, CTA. Deve crescer o interesse ao longo das 4 semanas.",
+            "assertions": [
+                "Cria ao menos 4 lives temáticas",
+                "Progressão de tema ao longo de 30 dias",
+                "Inclui live sobre MCMV/financiamento",
+                "Inclui tira-dúvidas",
+                "Cada live tem CTA",
+                "Menciona Praia Grande"
+            ],
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "skill_name": "video-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie um roteiro de vídeo para apresentar a Rayanne Gama Imóveis em até 60 segundos para uso no Instagram e site.",
+            "expected_output": "Roteiro com: abertura impactante (problema ou promessa), apresentação breve da imobiliária (5 anos, Praia Grande), diferenciais (atendimento humano, correspondente bancário), prova social (famílias atendidas), CTA (WhatsApp ou site). Máximo 60 segundos. Tom caloroso e profissional. Cenas sugeridas.",
+            "assertions": [
+                "Roteiro de até 60 segundos",
+                "Abertura impactante",
+                "Menciona 5 anos, Praia Grande",
+                "Menciona correspondente bancário",
+                "CTA para WhatsApp ou site",
+                "Cenas sugeridas"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie um roteiro de tour virtual em vídeo para um apartamento de 2 dormitórios em Praia Grande.",
+            "expected_output": "Roteiro de tour com sequência lógica: entrada/hall, sala, cozinha, quartos, banheiros, varanda, área comum (se houver). Cada ambiente com 1–2 pontos a destacar em voz off. Duração 2–3 minutos. Texto de narração natural, sem juridiquês. Finaliza com CTA para agendamento.",
+            "assertions": [
+                "Sequência lógica de cômodos",
+                "Cada ambiente com ponto a destacar",
+                "Duração estimada 2-3 minutos",
+                "Narração natural",
+                "CTA para agendamento no final"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Quais tipos de vídeo performam melhor para imobiliárias no Instagram Reels em 2025?",
+            "expected_output": "Deve recomendar: tour rápido de imóvel (15–30s), dica rápida de financiamento, antes e depois de cliente, tira-dúvidas ao vivo (clip), bastidores de visita. Deve mencionar importância de: gancho nos 3 primeiros segundos, legenda visível (50% assiste sem som), qualidade de imagem. Deve orientar formato vertical.",
+            "assertions": [
+                "Lista ao menos 4 tipos de reels que performam bem",
+                "Menciona gancho nos primeiros 3 segundos",
+                "Menciona legenda para quem assiste sem som",
+                "Menciona formato vertical",
+                "Contexto de imobiliária"
+            ],
+            "files": []
+        }
+    ]
+}

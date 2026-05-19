@@ -1,0 +1,31 @@
+{
+    "skill_name": "churn-prevention-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis pode reativar leads que pararam de responder após a primeira visita?",
+            "expected_output": "Deve sugerir sequência de reativação: WhatsApp de follow-up em 3 dias (empático, não cobrador), retorno em 7 dias com novo imóvel relevante, retorno em 15 dias com conteúdo de valor (ex: artigo sobre financiamento), retorno em 30 dias com pergunta direta sobre status. Tom sempre respeitoso. Deve definir quando 'arquivar' o lead sem possibilidade de recuperação.",
+            "assertions": [
+                "Sequência de reativação com intervalos definidos",
+                "Tom empático e não cobrador",
+                "Inclui envio de conteúdo de valor",
+                "Define quando arquivar o lead",
+                "Máximo 4 tentativas de recontato"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "O que fazer quando um lead diz que comprou com outra imobiliária? Como a Rayanne Gama deve reagir?",
+            "expected_output": "Deve orientar: parabenizar sinceramente (não fingir indiferença), pedir feedback sobre o que poderia ter sido diferente, registrar o motivo de perda no CRM, perguntar se pode ajudar com algo no futuro (indicações, próximo imóvel). Tom: gracioso, profissional. Nunca reclamar ou criticar o concorrente.",
+            "assertions": [
+                "Orienta parabenizar sinceramente",
+                "Pede feedback sobre o processo",
+                "Registrar motivo de perda no CRM",
+                "Deixa porta aberta para futuro",
+                "Nunca critica o concorrente"
+            ],
+            "files": []
+        }
+    ]
+}

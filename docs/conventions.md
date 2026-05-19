@@ -7,6 +7,26 @@
 - Sufixo `-ptbr` obrigatório em arquivos com conteúdo em português
 - Sufixo `-imobiliario` obrigatório em skills derivadas do fork
 
+## Estrutura de Pastas (skills/)
+
+Skills do fork original que não são imobiliárias ficam em `skills/archive/`.
+Consulte [`adr/ADR-0005-archiving-generic-skills.md`](../adr/ADR-0005-archiving-generic-skills.md).
+
+```
+skills/
+  <nome-da-skill-imobiliario>/   # Skills ativas
+    SKILL.md
+    evals/
+      evals.json                 # Mínimo 3 casos de teste imobiliários
+    references/
+      <arquivo-de-apoio>.md      # Mínimo 1 arquivo
+    examples/                    # Opcional — quando houver exemplos aprovados
+  archive/
+    <skills-do-fork-original>/   # Skills genéricas, preservadas por histórico
+    README.md
+```
+
+
 ### Exemplos corretos
 ```
 copywriting-imobiliario-ptbr/SKILL.md

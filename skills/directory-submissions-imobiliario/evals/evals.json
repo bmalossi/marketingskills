@@ -1,0 +1,18 @@
+{
+    "skill_name": "directory-submissions-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quais diretórios e plataformas a Rayanne Gama Imóveis deve priorizar para cadastro de imóveis e perfil empresarial?",
+            "expected_output": "Deve dividir em: portais imobiliários (ZAP Imóveis, VivaReal, OLX, Imóvel Web — prioridade máxima); diretórios de negócio (Google Business Profile obrigatório, Bing Places, Apple Maps); redes sociais como diretório (Instagram, Facebook Business). Para cada: importância, dificuldade de cadastro e manutenção necessária.",
+            "assertions": [
+                "Separa portais imobiliários de diretórios gerais",
+                "Menciona ZAP, VivaReal e OLX como prioridade",
+                "Menciona Google Business Profile como obrigatório",
+                "Define importância relativa de cada plataforma",
+                "Menciona manutenção necessária"
+            ],
+            "files": []
+        }
+    ]
+}

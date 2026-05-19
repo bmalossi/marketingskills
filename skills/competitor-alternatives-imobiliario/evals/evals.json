@@ -1,0 +1,31 @@
+{
+    "skill_name": "competitor-alternatives-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Um lead diz que estava considerando usar o Quinto Andar em vez de uma imobiliária tradicional. Como responder?",
+            "expected_output": "Deve criar resposta que: reconhece o Quinto Andar como opção válida, destaca os diferenciais da Rayanne Gama que plataformas digitais não têm (correspondente bancário direto, atendimento humano presencial, negociação de proposta, expertise local em Praia Grande). Não deve atacar o concorrente. Tom empático e confiante. Foca no que a Rayanne Gama faz melhor.",
+            "assertions": [
+                "Não ataca o concorrente",
+                "Destaca correspondente bancário como diferencial",
+                "Menciona atendimento humano presencial",
+                "Menciona expertise local em Praia Grande",
+                "Tom empático e confiante"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Por que um cliente de Praia Grande escolheria a Rayanne Gama Imóveis em vez de uma grande rede como RE/MAX ou Century 21?",
+            "expected_output": "Deve identificar posicionamento: Rayanne Gama tem conhecimento hiperlocal de Praia Grande que grandes redes nacionais não têm. Correspondente bancário é diferencial raro. Atendimento pessoal sem ser engrenagem de grande corporação. Deve ser uma resposta que o próprio cliente poderia usar para se convencer. Tom confiante sem arrogância.",
+            "assertions": [
+                "Destaca conhecimento hiperlocal de Praia Grande",
+                "Menciona correspondente bancário",
+                "Contrasta atendimento pessoal vs. grande rede",
+                "Tom confiante sem arrogância",
+                "Resposta que o cliente poderia usar"
+            ],
+            "files": []
+        }
+    ]
+}

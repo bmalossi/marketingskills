@@ -1,0 +1,31 @@
+{
+    "skill_name": "referral-program-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como estruturar um programa de indicação para a Rayanne Gama Imóveis onde clientes que já compraram indiquem novos compradores?",
+            "expected_output": "Deve criar estrutura de programa: o que o indicador ganha (bônus em cash, presente, desconto em serviços), como funciona a indicação (link único, formulário, ou WhatsApp), quando o benefício é liberado (após escritura ou validação do lead), como comunicar o programa. Deve ser simples e confiável. Deve mencionar que indicação é o canal de maior conversão.",
+            "assertions": [
+                "Define benefício para quem indica",
+                "Define mecânica de indicação simples",
+                "Define quando o benefício é liberado",
+                "Como comunicar o programa para clientes existentes",
+                "Menciona indicação como canal de alta conversão"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como comunicar o programa de indicação da Rayanne Gama Imóveis para clientes que compraram imóvel há 6 meses?",
+            "expected_output": "Deve criar mensagem de reativação via WhatsApp: relembra a experiência positiva, apresenta o programa de indicação de forma simples e clara, especifica o benefício, facilita a indicação (formulário ou WhatsApp direto). Tom caloroso e de reconhecimento. Não deve parecer spam.",
+            "assertions": [
+                "Mensagem WhatsApp para reativar clientes antigos",
+                "Relembra a experiência positiva",
+                "Apresenta programa de forma simples",
+                "Especifica o benefício",
+                "Tom caloroso, não parece spam"
+            ],
+            "files": []
+        }
+    ]
+}

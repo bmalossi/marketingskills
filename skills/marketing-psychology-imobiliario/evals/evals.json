@@ -1,0 +1,44 @@
+{
+    "skill_name": "marketing-psychology-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como aplicar prova social no marketing da Rayanne Gama Imóveis de forma autêntica?",
+            "expected_output": "Deve sugerir: depoimentos em vídeo ou texto de clientes reais, número de famílias atendidas (quando disponível), parceiros e construtoras conhecidas, reviews no Google, marco de 5 anos de mercado. Deve orientar como coletar e apresentar cada tipo. Deve alertar para não fabricar depoimentos ou números. Deve conectar com o contexto mestre (TODOs de prova social a preencher).",
+            "assertions": [
+                "Múltiplos tipos de prova social sugeridos",
+                "Menciona reviews Google e depoimentos reais",
+                "Menciona 5 anos de mercado como prova",
+                "Alerta contra fabricar dados",
+                "Conecta ao contexto mestre"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como a Rayanne Gama deve usar urgência e escassez no marketing sem manipular o cliente?",
+            "expected_output": "Deve distinguir urgência real da falsa: urgência real = último imóvel disponível, prazo real de oferta, taxa especial por tempo limitado. Urgência falsa = 'não perca!' sem contexto, contadores falsos. Deve recomendar usar APENAS urgência real. Deve sugerir como comunicar escassez de forma honesta e sem pressão.",
+            "assertions": [
+                "Distingue urgência real da falsa",
+                "Exemplos de urgência real no imobiliário",
+                "Alerta contra urgência falsa",
+                "Recomenda uso ético de escassez",
+                "Tom ético e alinhado com a marca"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Quais gatilhos mentais funcionam melhor para a persona de comprador de primeiro imóvel em Praia Grande?",
+            "expected_output": "Deve listar gatilhos relevantes: confiança (autoridade, prova social, transparência), redução de risco (garantia de processo, correspondente próprio), pertencimento (morar em Praia Grande como estilo de vida), oportunidade real (não forçada). Deve desaconsejar: medo excessivo, urgência falsa, comparação social negativa. Contexto imobiliário brasileiro.",
+            "assertions": [
+                "Lista gatilhos relevantes para o perfil",
+                "Menciona confiança e redução de risco",
+                "Desaconselha urgência falsa e medo excessivo",
+                "Contexto de primeiro imóvel",
+                "Conecta com os diferenciais da Rayanne Gama"
+            ],
+            "files": []
+        }
+    ]
+}

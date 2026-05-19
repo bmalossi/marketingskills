@@ -1,0 +1,32 @@
+{
+    "skill_name": "page-cro-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como aumentar a taxa de clique no WhatsApp da página de imóvel da Rayanne Gama Imóveis?",
+            "expected_output": "Deve sugerir: botão fixo flutuante do WhatsApp em mobile, botão destacado acima da dobra (antes de rolar), texto no botão específico ('Quero saber o preço', não apenas 'WhatsApp'), prova social próxima ao botão, remover distrações (menus excessivos). Deve mencionar meta do contexto mestre: > 4% de clique no WhatsApp sobre sessões.",
+            "assertions": [
+                "Botão flutuante fixo em mobile",
+                "Botão acima da dobra",
+                "Texto do botão específico e orientado à ação",
+                "Prova social próxima ao botão",
+                "Menciona meta de > 4% do contexto mestre"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quais elementos de uma landing page de lançamento imobiliário mais impactam a conversão de leads?",
+            "expected_output": "Deve listar por ordem de impacto: headline com proposta de valor clara (localização + benefício), formulário de captação acima da dobra, prova social (construtora, imobiliária), imagens reais do empreendimento ou render, lista de benefícios concretos, CTA repetido (acima da dobra, no meio, no final). Deve mencionar velocidade da página como fator.",
+            "assertions": [
+                "Headline com proposta de valor acima da dobra",
+                "Formulário de captação acima da dobra",
+                "Prova social incluída",
+                "Imagens reais recomendadas",
+                "CTA repetido em 3 posições",
+                "Velocidade da página mencionada"
+            ],
+            "files": []
+        }
+    ]
+}

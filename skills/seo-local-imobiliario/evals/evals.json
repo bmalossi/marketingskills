@@ -1,0 +1,71 @@
+{
+    "skill_name": "seo-local-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como otimizar o Google Business Profile da Rayanne Gama Imóveis para aparecer nas buscas locais de Praia Grande?",
+            "expected_output": "Deve cobrir: preenchimento completo do perfil (nome, endereço, telefone, horário), categoria correta (Imobiliária), fotos de qualidade (escritório, equipe, imóveis), posts regulares, respostas a avaliações, coleta de reviews, uso de palavras-chave na descrição. Deve mencionar consistência NAP (nome, endereço, telefone) em todos os diretórios.",
+            "assertions": [
+                "Menciona preenchimento completo do perfil",
+                "Menciona categoria 'Imobiliária'",
+                "Menciona fotos de qualidade",
+                "Menciona coleta e resposta a reviews",
+                "Menciona consistência NAP",
+                "Menciona posts regulares no GBP"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quais diretórios locais a Rayanne Gama Imóveis deve estar cadastrada além do Google Business Profile?",
+            "expected_output": "Deve listar portais imobiliários: ZAP Imóveis, VivaReal, OLX, Imóvel Web. Deveslistar diretórios locais: Yelp BR, Bing Places, Apple Maps. Deve mencionar portais de bairros ou regionais da Baixada Santista se existirem. Deve reforçar consistência NAP em todos. Deve priorizar portais com maior volume de busca no nicho.",
+            "assertions": [
+                "Menciona ZAP Imóveis, VivaReal e OLX",
+                "Menciona Bing Places e Apple Maps",
+                "Menciona consistência NAP",
+                "Prioriza portais com maior tráfego imobiliário",
+                "Contexto de Praia Grande / Baixada Santista"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Como estruturar as páginas do site da Rayanne Gama Imóveis para ranquear por cidade (ex: página de 'apartamentos em Santos')?",
+            "expected_output": "Deve sugerir estrutura de landing pages por cidade: /imoveis/praia-grande, /imoveis/santos, /imoveis/sao-vicente, /imoveis/mongagua. Cada página deve ter: H1 com a palavra-chave, conteúdo textual único, listagem de imóveis da cidade, schema LocalBusiness + RealEstateListing. Deve mencionar que conteúdo duplicado entre cidades deve ser evitado.",
+            "assertions": [
+                "Sugere URLs amigáveis por cidade",
+                "Menciona H1 com palavra-chave da cidade",
+                "Menciona conteúdo textual único por cidade",
+                "Menciona schema markup (LocalBusiness + RealEstateListing)",
+                "Menciona risco de conteúdo duplicado"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "A Rayanne Gama Imóveis teve queda no Google Maps nos últimos 2 meses. O que pode ter causado e como recuperar?",
+            "expected_output": "Deve listar causas possíveis: mudança de endereço não atualizada, reviews negativos recentes, perfil desatualizado ou suspenso, concorrentes com mais reviews e fotos, mudança no algoritmo local do Google. Para cada causa, deve sugerir ação de recuperação. Deve mencionar importância de monitorar insights do GBP.",
+            "assertions": [
+                "Lista causas possíveis (ao menos 3)",
+                "Menciona reviews negativos como fator",
+                "Menciona perfil desatualizado",
+                "Sugere ação de recuperação para cada causa",
+                "Menciona monitorar insights do GBP"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Crie um roteiro de coleta de avaliações (reviews) para os clientes da Rayanne Gama Imóveis no Google.",
+            "expected_output": "Deve criar: momento ideal para pedir review (após agradecimento pelo atendimento, depois de fechar negócio, após entrega de chaves), mensagem de WhatsApp para pedir review, mensagem de resposta a reviews positivos e negativos. Tom caloroso e sem parecer forçado.",
+            "assertions": [
+                "Define momento ideal para pedir review",
+                "Cria mensagem de WhatsApp para solicitar review",
+                "Cria modelo de resposta a review positivo",
+                "Cria modelo de resposta a review negativo",
+                "Tom caloroso e não forçado"
+            ],
+            "files": []
+        }
+    ]
+}

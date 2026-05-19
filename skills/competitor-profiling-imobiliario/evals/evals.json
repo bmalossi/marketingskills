@@ -1,0 +1,18 @@
+{
+    "skill_name": "competitor-profiling-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis deve analisar os concorrentes em Praia Grande para encontrar oportunidades de diferenciação?",
+            "expected_output": "Deve sugerir framework: analisar concorrentes no Instagram (frequência, temas, engajamento), nos portais (ZAP, VivaReal — portfólio, tempo de resposta, fotos), no Google Maps (reviews, avaliações), no Google Search (posicionamento para as principais palavras-chave). Deve recomendar que a análise seja feita mensalmente. Deve focar em lacunas a explorar, não em copiar.",
+            "assertions": [
+                "Framework com múltiplos canais de análise",
+                "Analisa Instagram, portais, Google Maps e Search",
+                "Foca em lacunas e oportunidades",
+                "Recomenda frequência de análise",
+                "Menciona Praia Grande como mercado"
+            ],
+            "files": []
+        }
+    ]
+}

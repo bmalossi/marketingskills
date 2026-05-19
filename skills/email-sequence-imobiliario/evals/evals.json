@@ -1,0 +1,72 @@
+{
+    "skill_name": "email-sequence-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie uma sequência de 5 emails de nurturing para leads que se cadastraram para receber informações sobre imóveis em Praia Grande mas ainda não agendaram visita.",
+            "expected_output": "Deve criar 5 emails com progressão: boas-vindas + valor → educação sobre a região → showcase de imóvel → resposta a objeções principais → CTA de agendamento. Cada email com: assunto persuasivo, abertura calorosa, corpo com um ponto principal, CTA claro. Tom informal e próximo. Assuntos devem ter boa abertura (sem 'Oportunidade Única'). Intervalo sugerido entre emails.",
+            "assertions": [
+                "Cria exatamente 5 emails",
+                "Progressão lógica (valor → educação → imóvel → objeção → CTA)",
+                "Cada email tem assunto, abertura, corpo e CTA",
+                "Assuntos sem clichês proibidos",
+                "Tom informal e próximo",
+                "Sugere intervalo entre emails",
+                "CTA final leva ao agendamento de visita"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Escreva um email para leads que pediram simulação de financiamento mas não responderam nos últimos 7 dias.",
+            "expected_output": "Email de reativação. Tom empático, não culpabilizador. Deve reconhecer que a decisão de imóvel é importante. Oferece nova simulação ou resposta a dúvidas. CTA suave: não é 'compre agora', mas 'podemos ajudar ainda?'. Assunto deve ser pessoal e direto.",
+            "assertions": [
+                "Tom empático, não cobrador",
+                "Reconhece importância da decisão",
+                "Oferece ajuda sem pressão",
+                "CTA suave de reativação",
+                "Assunto pessoal e direto",
+                "Máximo 150 palavras no corpo"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Crie um email de boas-vindas para quem se cadastrou no site da Rayanne Gama Imóveis interessado em imóveis para investimento em Praia Grande.",
+            "expected_output": "Email que confirma o cadastro, apresenta a Rayanne Gama de forma calorosa e breve, destaca expertise local (5 anos, Baixada Santista) e correspondente bancário. Oferece próximo passo (falar com corretor ou ver portfólio). Tom profissional mas acessível. Menciona que estão disponíveis para tirar dúvidas.",
+            "assertions": [
+                "Confirma cadastro",
+                "Apresenta a Rayanne Gama brevemente (5 anos, Baixada Santista)",
+                "Menciona correspondente bancário como diferencial",
+                "Oferece próximo passo claro",
+                "Tom profissional mas acessível",
+                "Menciona disponibilidade para dúvidas"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "me ajuda a escrever uma sequência de email",
+            "expected_output": "Deve solicitar informações mínimas: público-alvo, etapa do funil, canal de origem dos leads, objetivo da sequência, número de emails desejados.",
+            "assertions": [
+                "Solicita público-alvo",
+                "Solicita etapa do funil ou objetivo",
+                "Não gera sequência sem contexto"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Crie o email de confirmação de visita agendada para um apartamento de 2 dormitórios no Aviação, Praia Grande.",
+            "expected_output": "Email transacional de confirmação. Deve conter: confirmação da data/hora, endereço, contato do corretor, o que levar ou esperar. Tom caloroso e prático. Deve gerar expectativa positiva sem over-promise. Inclui contato de WhatsApp para caso precise reagendar.",
+            "assertions": [
+                "Confirma data, hora e endereço",
+                "Menciona Aviação, Praia Grande",
+                "Indica o que levar ou esperar",
+                "Tom caloroso e prático",
+                "Inclui contato WhatsApp para reagendamento"
+            ],
+            "files": []
+        }
+    ]
+}

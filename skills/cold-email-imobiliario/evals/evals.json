@@ -1,0 +1,47 @@
+{
+    "skill_name": "cold-email-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Escreva um email frio para empresas da região de Praia Grande oferecendo parceria: a Rayanne Gama Imóveis pode ajudar os funcionários dessas empresas a comprar imóveis com condições especiais.",
+            "expected_output": "Email de prospecção B2B para RH ou diretoria. Deve ter assunto personalizado e não genérico. Abertura com contexto relevante para o receptor. Proposta clara de benefício para o funcionário (e implicitamente para a empresa como benefício corporativo). CTA para agendar conversa. Tom profissional mas próximo. Curto (máximo 150 palavras).",
+            "assertions": [
+                "Assunto personalizado, não genérico",
+                "Abertura com contexto relevante",
+                "Proposta de benefício corporativo",
+                "Menciona Praia Grande ou Baixada Santista",
+                "CTA para agendar conversa",
+                "Máximo 150 palavras",
+                "Tom profissional mas próximo"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie um email de prospecção para construtoras da Baixada Santista oferecendo parceria comercial com a Rayanne Gama Imóveis para venda de lançamentos.",
+            "expected_output": "Email de parceria B2B construtora. Deve destacar: 5 anos de mercado, presença local, portfólio de clientes qualificados, correspondente bancário como diferencial de conversão. Tom profissional e direto. Proposta de próximo passo (reunião ou call). Assunto despertando interesse no resultado comercial.",
+            "assertions": [
+                "Destaca 5 anos de mercado e presença local",
+                "Menciona correspondente bancário como diferencial",
+                "Propõe reunião ou call como próximo passo",
+                "Assunto orientado para resultado (não benefício genérico)",
+                "Tom profissional",
+                "Menciona Baixada Santista"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Escreva um email de follow-up para uma construtora que não respondeu ao email inicial enviado há 5 dias.",
+            "expected_output": "Follow-up curto (2–4 linhas). Tom não insistente, mas que mantém presença. Deve referenciar o email anterior brevemente. Deve oferecer ângulo novo ou pergunta direta. CTA simples e de baixo esforço (responder com 'sim' ou 'não').",
+            "assertions": [
+                "Máximo 4 linhas",
+                "Tom não insistente",
+                "Referencia email anterior",
+                "Oferece ângulo novo ou pergunta direta",
+                "CTA de baixo esforço"
+            ],
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "skill_name": "copywriting-imobiliario-ptbr",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Escreva o headline e subtítulo para uma landing page de apartamentos de 2 dormitórios em Praia Grande para quem quer comprar o primeiro imóvel usando financiamento.",
+            "expected_output": "Headline deve ser específico, com benefício claro e sem clichê. Subtítulo deve explicar a promessa e mencionar o diferencial (correspondente bancário, atendimento humano, Praia Grande). Tom: confiante, acolhedor, direto. Nenhum dos dois deve usar 'realize o sonho', 'oportunidade única' ou superlativos sem evidência.",
+            "assertions": [
+                "Headline com benefício claro e específico",
+                "Subtítulo menciona diferencial (correspondente bancário ou atendimento)",
+                "Menciona Praia Grande",
+                "Menciona financiamento como facilitador",
+                "Nenhum clichê proibido (realize o sonho, oportunidade única)",
+                "Tom confiante e acolhedor"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Escreva a copy do botão CTA, headline e 3 bullets de uma seção de imóvel para um apartamento de 3 dormitórios em Santos por R$ 750.000.",
+            "expected_output": "CTA deve ser específico e orientado à ação (não apenas 'saiba mais'). Headline do imóvel deve incluir tipologia, cidade e valor de forma atrativa. Bullets devem destacar diferenciais reais (localização, metragem se conhecida, financiamento, vista, etc.). Tom direto e persuasivo sem exagero.",
+            "assertions": [
+                "CTA específico e orientado à ação",
+                "Headline inclui tipologia, Santos e valor",
+                "3 bullets com diferenciais reais",
+                "Sem excessos ou superlativos vazios",
+                "Tom persuasivo mas honesto"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Reescreva essa copy: 'OPORTUNIDADE INCRÍVEL!! Apartamento LINDO em Praia Grande! Não perca! Entre em contato AGORA!! 🔥🔥🔥'",
+            "expected_output": "Deve identificar os problemas: superlativos vazios, sensacionalismo, excesso de maiúsculas, excesso de emojis, nenhuma informação concreta. Deve reescrever com: informação específica (tipo, localização), benefício real, tom próximo sem pressão, máximo 1–2 emojis, CTA claro e sem urgência falsa.",
+            "assertions": [
+                "Identifica os problemas da versão original",
+                "Remove superlativos e sensacionalismo",
+                "Adiciona informação concreta (tipologia, localização)",
+                "Máximo 2 emojis na versão reescrita",
+                "CTA claro sem urgência falsa",
+                "Tom próximo e honesto"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Crie o copy para um card de imóvel em carrossel de Instagram (texto do slide 1) de uma casa de 4 dormitórios em Mongaguá por R$ 480.000, para família buscando upgrade.",
+            "expected_output": "Slide 1 deve ter gancho forte que pare o scroll. Deve mencionar o diferencial principal (espaço, localização, valor). Em linguagem simples, sem términos técnicos. Tom familiar e próximo. Deve convidar para continuar lendo os demais slides.",
+            "assertions": [
+                "Gancho forte para parar o scroll",
+                "Menciona Mongaguá e tipologia",
+                "Linguagem simples, sem juridiquês",
+                "Tom familiar e próximo",
+                "Convida para continuar o carrossel"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Escreva um texto curto para a bio do Instagram da Rayanne Gama Imóveis (máximo 150 caracteres).",
+            "expected_output": "Bio dentro de 150 caracteres. Deve comunicar: quem é (imobiliária), onde atua (Praia Grande/Baixada Santista), diferencial e CTA (link na bio). Tom da marca: próximo e profissional. Deve ser memorável.",
+            "assertions": [
+                "Máximo 150 caracteres",
+                "Menciona imobiliária e localização",
+                "Inclui diferencial (correspondente bancário ou atendimento)",
+                "Tem CTA implícito ou link",
+                "Tom próximo e profissional"
+            ],
+            "files": []
+        },
+        {
+            "id": 6,
+            "prompt": "Escreva um script curto de abordagem via WhatsApp para o corretor usar quando o lead acabou de entrar em contato via anúncio do Facebook.",
+            "expected_output": "Script de boas-vindas caloroso, sem robótico. Deve apresentar a Rayanne Gama brevemente, perguntar o que o lead está buscando. Tom informal, acolhedor, sem pressão. Deve começar a qualificação de forma natural. Máximo 3 mensagens.",
+            "assertions": [
+                "Tom informal e acolhedor",
+                "Apresenta a Rayanne Gama de forma breve",
+                "Inicia qualificação de forma natural",
+                "Máximo 3 mensagens no script",
+                "Sem linguagem robotizada",
+                "Pergunta aberta sobre o que o lead busca"
+            ],
+            "files": []
+        }
+    ]
+}

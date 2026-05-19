@@ -1,0 +1,19 @@
+{
+    "skill_name": "aso-audit-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "A Rayanne Gama Imóveis quer ter presença nos aplicativos de busca de imóveis (ZAP, VivaReal, OLX). Como otimizar os anúncios nesses portais?",
+            "expected_output": "Deve cobrir: título com palavras-chave (tipologia + bairro + cidade), fotos de qualidade (mínimo 10, primeira foto deve ser exterior ou ambiente principal), descrição completa com todos os atributos, preço e condições visíveis, resposta rápida às mensagens. Deve mencionar que os portais têm algoritmo de destaque baseado em qualidade do anúncio e velocidade de resposta.",
+            "assertions": [
+                "Título com palavras-chave (tipologia, bairro, cidade)",
+                "Recomendação de quantidade de fotos",
+                "Primeira foto como exterior ou ambiente principal",
+                "Descrição completa com atributos",
+                "Menciona algoritmo dos portais",
+                "Recomenda velocidade de resposta"
+            ],
+            "files": []
+        }
+    ]
+}

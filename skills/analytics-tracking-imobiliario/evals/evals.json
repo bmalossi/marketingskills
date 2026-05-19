@@ -1,0 +1,57 @@
+{
+    "skill_name": "analytics-tracking-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como configurar os eventos de conversão no GA4 para o site da Rayanne Gama Imóveis?",
+            "expected_output": "Deve listar os eventos do contexto mestre: view_listing, click_whatsapp, form_submit, schedule_visit, request_simulation, proposal_sent, sale_closed. Deve explicar como configurar cada um (GTM ou código direto). Deve definir qual é o evento principal de conversão (click_whatsapp + form_submit). Deve mencionar Meta Pixel em paralelo.",
+            "assertions": [
+                "Lista todos os 7 eventos do contexto mestre",
+                "Explica configuração via GTM ou código",
+                "Define eventos principais de conversão",
+                "Menciona Meta Pixel como configuração paralela",
+                "Instruções práticas e aplicáveis"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quais relatórios do GA4 são mais importantes para a Rayanne Gama Imóveis acompanhar mensalmente?",
+            "expected_output": "Deve recomendar: relatório de aquisição (quais canais trazem mais leads), conversões por evento, páginas mais acessadas (imóveis mais visitados), taxa de engajamento, fluxo de usuários pelo funil. Deve explicar por que cada relatório é relevante para o negócio imobiliário.",
+            "assertions": [
+                "Recomenda ao menos 5 relatórios",
+                "Inclui relatório de aquisição por canal",
+                "Inclui conversões por evento",
+                "Inclui páginas de imóveis mais acessadas",
+                "Justifica relevância para o negócio imobiliário"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Como rastrear quantas pessoas clicaram no botão WhatsApp e chegaram da campanha de Meta Ads?",
+            "expected_output": "Deve explicar: UTM parameters em links do Meta Ads, configuração do evento click_whatsapp no GTM, relatório de conversões por fonte no GA4. Deve mostrar estrutura de UTM adequada para imobiliária. Deve mencionar que o WhatsApp não retorna dados ao GA4 sem configuração prévia.",
+            "assertions": [
+                "Explica uso de UTM parameters",
+                "Mostra estrutura de UTM para Meta Ads",
+                "Explica evento click_whatsapp no GTM",
+                "Menciona limitação do WhatsApp sem configuração",
+                "Orienta relatório de conversão por fonte"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Preciso de um dashboard simples para acompanhar o desempenho da Rayanne Gama Imóveis toda semana. O que deve ter?",
+            "expected_output": "Deve sugerir estrutura de dashboard: seção de tráfego (sessões, usuários, canal de origem), seção de conversão (eventos principais, taxa de conversão), seção de leads (novos leads por canal, custo por lead se houver anúncio), seção de funil (avanço por etapa). Deve sugerir ferramenta (GA4 + Looker Studio ou planilha).",
+            "assertions": [
+                "Sugere ao menos 3 seções no dashboard",
+                "Inclui métricas de tráfego e conversão",
+                "Inclui métricas de leads",
+                "Sugere ferramenta (Looker Studio ou planilha)",
+                "Dashboard é prático para acompanhamento semanal"
+            ],
+            "files": []
+        }
+    ]
+}

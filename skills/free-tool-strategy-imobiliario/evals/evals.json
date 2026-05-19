@@ -1,0 +1,18 @@
+{
+    "skill_name": "free-tool-strategy-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quais ferramentas gratuitas a Rayanne Gama Imóveis poderia oferecer no site para atrair e converter leads?",
+            "expected_output": "Deve sugerir: calculadora de parcela de financiamento, simulador de FGTS, calculadora de entrada mínima, guia de documentação em PDF, quiz 'qual imóvel é ideal para você'. Para cada ferramenta: o lead gerado, o que pedir em troca (email ou WhatsApp), como produzir. Deve ser realista para imobiliária de médio porte.",
+            "assertions": [
+                "Ao menos 4 ferramentas sugeridas",
+                "Calculadora de financiamento ou parcela",
+                "Simulador de FGTS ou entrada",
+                "Define o que pedir em troca (email/WhatsApp)",
+                "Realizável para imobiliária de médio porte"
+            ],
+            "files": []
+        }
+    ]
+}

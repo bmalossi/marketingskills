@@ -5,7 +5,7 @@
 
 ## Identidade do Projeto
 
-Este repositório contém skills de marketing especializadas para a **Rayanne Gama Imóveis**, uma imobiliária localizada na região de Campinas/SP, Brasil. Todo conteúdo gerado deve refletir o posicionamento, o tom de voz e os objetivos comerciais desta imobiliária.
+Este repositório contém skills de marketing especializadas para a **Rayanne Gama Imóveis**, uma imobiliária localizada em **Praia Grande/SP** e atuante na Baixada Santista, Brasil. Todo conteúdo gerado deve refletir o posicionamento, o tom de voz e os objetivos comerciais desta imobiliária.
 
 ## Regras Gerais
 

@@ -1,0 +1,31 @@
+{
+    "skill_name": "co-marketing-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Sugira 5 parceiros locais com quem a Rayanne Gama Imóveis poderia fazer co-marketing em Praia Grande.",
+            "expected_output": "Deve sugerir: arquitetos e designers de interiores, lojas de móveis e decoração, construtoras locais, serviços de mudança, empresas de segurança residencial, escolas e creches da região. Para cada parceiro: o que a Rayanne Gama oferece, o que recebe, e formato de parceria (posts conjuntos, indicação mútua, evento). Tom prático e comercial.",
+            "assertions": [
+                "5 parceiros sugeridos com justificativa",
+                "Parceiros relevantes para contexto imobiliário",
+                "Define o que cada parte oferece e recebe",
+                "Formato de parceria para cada caso",
+                "Contexto de Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como estruturar uma parceria de indicação com um escritório de arquitetura em Praia Grande?",
+            "expected_output": "Deve definir: termos da parceria (indicação mútua, comissão ou troca de serviços), como formalizar (contrato simples ou acordo informal), fluxo de indicação (quando/como indicar), material de divulgação conjunto. Tom profissional. Deve mencionar que ambas as partes se beneficiam com o mesmo perfil de cliente.",
+            "assertions": [
+                "Define termos da parceria",
+                "Sugere formalização (contrato ou acordo)",
+                "Fluxo de indicação claro",
+                "Material de divulgação conjunto",
+                "Benefício mútuo evidenciado"
+            ],
+            "files": []
+        }
+    ]
+}

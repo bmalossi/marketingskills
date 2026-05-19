@@ -1,0 +1,33 @@
+{
+    "skill_name": "site-architecture-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Qual deve ser a estrutura de páginas do site da Rayanne Gama Imóveis para maximizar SEO e conversão?",
+            "expected_output": "Deve criar estrutura hierárquica: Home, Imóveis (listagem geral), páginas por cidade (Praia Grande, São Vicente, Santos, Mongaguá), páginas por tipo (apartamento, casa, terreno, comercial), página de financiamento, página institucional (quem somos, equipe), blog/artigos, contato. Deve mencionar importância das URLs amigáveis. Deve identificar páginas de alta conversão que precisam de CTA prominente.",
+            "assertions": [
+                "Estrutura hierárquica clara",
+                "Páginas por cidade (Praia Grande, São Vicente, Santos, Mongaguá)",
+                "Páginas por tipo de imóvel",
+                "Página de financiamento/correspondente bancário",
+                "URLs amigáveis mencionadas",
+                "Identifica páginas de alta conversão"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como deve ser a página de detalhes de um imóvel no site da Rayanne Gama Imóveis para converter o máximo de visitantes em leads?",
+            "expected_output": "Deve descrever: galeria de fotos em destaque, headline com tipologia e localização, preço e condições de financiamento visíveis (above the fold), botão WhatsApp proeminente, formulário de contato, mapa com localização, informações detalhadas, imóveis relacionados, avaliações e diferenciais da imobiliária. Schema RealEstateListing obrigatório.",
+            "assertions": [
+                "Galeria de fotos em destaque",
+                "Preço e condições above the fold",
+                "Botão WhatsApp proeminente",
+                "Formulário de contato",
+                "Mapa de localização",
+                "Schema RealEstateListing obrigatório"
+            ],
+            "files": []
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "skill_name": "paid-ads-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie uma estrutura de campanha de Meta Ads para a Rayanne Gama Imóveis com o objetivo de gerar leads de compradores de primeiro imóvel em Praia Grande. Orçamento: R$ 1.500/mês.",
+            "expected_output": "Deve estruturar: campanha de geração de leads, conjunto de anúncios com segmentação (faixa etária 25–40, interesse em imóveis, localização Praia Grande e arredores), criativos (vídeo + carrossel), copy de anúncio adaptada para persona. Deve sugerir orçamento por conjunto, meta de custo por lead, e que a Rayanne Gama deve ativar o Pixel antes. Deve mencionar que o correspondente bancário é um diferencial a destacar no copy.",
+            "assertions": [
+                "Estrutura campanha, conjunto e anúncio",
+                "Segmentação adequada (25-40 anos, interesse em imóveis, Praia Grande)",
+                "Sugestão de orçamento por conjunto dentro de R$ 1.500",
+                "Menciona Pixel Meta como pré-requisito",
+                "Menciona correspondente bancário como diferencial",
+                "Define meta de custo por lead"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quais formatos de anúncio performam melhor no Meta Ads para imobiliárias focadas em MCMV?",
+            "expected_output": "Deve recomendar: vídeo curto (15–30s) com imagens reais do imóvel, carrossel mostrando cômodos diferentes, post único com headline específico. Deve explicar por que vídeo funciona melhor para esse público (baixa escolaridade financeira, maior apelo emocional). Deve mencionar importância de imagens reais (não renderizados). Deve orientar sobre texto nas imagens (menos de 20%).",
+            "assertions": [
+                "Recomenda vídeo curto como formato principal",
+                "Justifica escolha de formato para o público MCMV",
+                "Menciona importância de imagens reais",
+                "Menciona limite de texto nas imagens Meta",
+                "Inclui carrossel como formato complementar"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Como a Rayanne Gama Imóveis deve estruturar um Google Ads para capturar pessoas que estão buscando 'apartamento à venda Praia Grande'?",
+            "expected_output": "Deve estruturar: campanha de pesquisa, grupo de anúncios por intenção (comprar, financiar, MCMV), palavras-chave com correspondência exata e de frase, anúncios responsivos com headlines e descrições específicos. Deve mencionar extensões (local, chamada, sitelink). Deve recomendar enviar o lead para landing page específica (não a home).",
+            "assertions": [
+                "Estrutura campanha de pesquisa",
+                "Grupos de anúncios por intenção",
+                "Tipos de correspondência de palavras-chave",
+                "Menciona extensões (local, chamada, sitelink)",
+                "Recomenda landing page específica (não a home)",
+                "Inclui palavras-chave como 'apartamento à venda Praia Grande'"
+            ],
+            "files": []
+        }
+    ]
+}

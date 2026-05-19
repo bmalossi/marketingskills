@@ -1,0 +1,31 @@
+{
+    "skill_name": "community-marketing-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis pode construir comunidade local em Praia Grande para gerar indicações e fidelidade?",
+            "expected_output": "Deve sugerir ações: grupo de WhatsApp para moradores/interessados em imóveis na cidade, parcerias com comércio local, participação em eventos do bairro, conteúdo de valorização da cidade (orgulho local). Deve ser prático e aplicável. Deve mencionar que comunidade gera indicações (canal não pago e alta conversão). Tom local e próximo.",
+            "assertions": [
+                "Sugere grupo WhatsApp ou comunidade digital",
+                "Menciona parcerias com comércio local",
+                "Conecta comunidade com geração de indicações",
+                "Menciona Praia Grande como foco",
+                "Ações práticas e de baixo custo"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie uma estratégia para a Rayanne Gama Imóveis se tornar referência no Instagram como especialista em Praia Grande.",
+            "expected_output": "Deve sugerir: conteúdo consistente sobre o bairro e a cidade, séries temáticas (bairros de Praia Grande, eventos, praias), lives sobre o mercado local, parceria com influenciadores locais pequenos (microinfluencers), uso de hashtags locais. Deve ter plano de 60–90 dias com marcos de crescimento.",
+            "assertions": [
+                "Conteúdo sobre bairros e cultura de Praia Grande",
+                "Menciona microinfluencers locais",
+                "Uso de hashtags locais",
+                "Plano de 60-90 dias",
+                "Foco em autoridade local"
+            ],
+            "files": []
+        }
+    ]
+}

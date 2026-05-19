@@ -1,0 +1,46 @@
+{
+    "skill_name": "content-strategy-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie uma estratégia de conteúdo de 3 meses para a Rayanne Gama Imóveis com foco em aumentar leads orgânicos pelo Instagram.",
+            "expected_output": "Deve definir: objetivo (aumentar leads orgânicos), métricas (seguidores, alcance, clicks no link da bio, DMs), pilares de conteúdo (educação, imóvel, bairro, prova social), frequência por tipo, temas mensais com foco progressivo. Mês 1: autoridade e alcance. Mês 2: consideração e engajamento. Mês 3: conversão. Cada mês com 2–3 campanhas temáticas.",
+            "assertions": [
+                "Define objetivo e métricas",
+                "Lista pilares de conteúdo",
+                "Define frequência por tipo de conteúdo",
+                "Estrutura 3 meses com foco progressivo",
+                "Inclui temas mensais com campanhas",
+                "Considera os canais prioritários da Rayanne Gama"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Qual deve ser a estratégia de conteúdo para o blog da Rayanne Gama Imóveis para ranquear no Google?",
+            "expected_output": "Deve sugerir: clusters de conteúdo (financiamento, regiões, tipos de imóvel, dúvidas frequentes), frequência de publicação, formato dos artigos (1000+ palavras, estruturado, com FAQ). Deve mencionar keyword research como base para planejamento. Deve sugerir link interno entre artigos. Deve mencionar que cada artigo deve ter CTA para WhatsApp.",
+            "assertions": [
+                "Define clusters de conteúdo",
+                "Sugere frequência de publicação",
+                "Menciona keyword research",
+                "Menciona link interno",
+                "Artigos com CTA para WhatsApp",
+                "Formato adequado para SEO (1000+ palavras)"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "A Rayanne Gama quer criar conteúdo para converter leads frios em compradores. Qual estratégia de conteúdo recomendas?",
+            "expected_output": "Deve identificar etapa do funil (consideração → intenção). Deve sugerir conteúdo de objeção: 'e se meu crédito não for aprovado?', 'como funciona a documentação?'. Deve recomendar sequência de nurturing (email + WhatsApp + Instagram). Deve conectar os canais em uma jornada coerente. Deve incluir CTA progressivo (não pule para 'compre já').",
+            "assertions": [
+                "Identifica etapa do funil (consideração/intenção)",
+                "Sugere conteúdo de objeção específico",
+                "Recomenda sequência multi-canal",
+                "CTA progressivo por etapa",
+                "Conecta Instagram, WhatsApp e email numa jornada"
+            ],
+            "files": []
+        }
+    ]
+}

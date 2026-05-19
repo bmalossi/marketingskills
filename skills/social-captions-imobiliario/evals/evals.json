@@ -1,0 +1,73 @@
+{
+    "skill_name": "social-captions-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Escreva uma legenda para um post de foto de apartamento de 2 dormitórios no Caiçara, Praia Grande, R$ 310.000, financiamento disponível.",
+            "expected_output": "Legenda com gancho na primeira linha (visível sem expandir), detalhes reais do imóvel (bairro, tipologia, valor, financiamento), CTA para WhatsApp. Não deve usar clichês proibidos. Tom próximo e empolgante sem exagero. Até 3 linhas antes do 'ver mais'. Emojis máximo 2.",
+            "assertions": [
+                "Gancho forte na primeira linha",
+                "Menciona Caiçara, Praia Grande, 2 dormitórios",
+                "Menciona R$ 310.000 e financiamento",
+                "CTA para WhatsApp",
+                "Máximo 2 emojis",
+                "Nenhum clichê proibido"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Escreva 3 variações de legenda para o mesmo imóvel: apartamento de 3 dormitórios em Santos, R$ 720.000. Uma para cada persona: família com filhos, investidor e casal jovem.",
+            "expected_output": "Deve gerar 3 legendas distintas, cada uma sintonizada com a persona. Família: foca em espaço, conforto, bairro. Investidor: foca em valorização, retorno, localização estratégica. Casal jovem: foca em estilo de vida, financiamento acessível. Cada legenda com gancho diferente e CTA. Tom adaptado por persona.",
+            "assertions": [
+                "3 legendas distintas com perspectivas diferentes",
+                "Legenda da família: espaço e conforto",
+                "Legenda do investidor: retorno e valorização",
+                "Legenda do casal: estilo de vida e acessibilidade",
+                "Cada uma com CTA",
+                "Menciona Santos e R$ 720.000"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Crie uma legenda para um post de conteúdo educativo sobre 'como funciona o MCMV' para o público de primeira compra.",
+            "expected_output": "Legenda educativa com gancho de dúvida ou fato. Explica o MCMV em 2–3 pontos simples. CTA para salvar ou tirar dúvidas. Tom didático e próximo. Sem juridiquês. Deve mencionar que a Rayanne Gama pode ajudar na qualificação para o programa.",
+            "assertions": [
+                "Gancho com dúvida ou fato relevante",
+                "Explica MCMV em 2-3 pontos simples",
+                "Sem juridiquês",
+                "CTA de salvar ou comentar",
+                "Menciona que a Rayanne Gama pode ajudar",
+                "Tom didático e próximo"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Escreva uma legenda para story de contagem regressiva: faltam 3 dias para o lançamento de um empreendimento MCMV em Mongaguá.",
+            "expected_output": "Legenda curta e dinâmica para story. Deve criar urgência real sem sensacionalismo. Deve mencionar contagem regressiva, MCMV e Mongaguá. CTA para entrar na lista ou acionar WhatsApp. Máximo 3 linhas.",
+            "assertions": [
+                "Curta (máximo 3 linhas)",
+                "Cria urgência sem sensacionalismo",
+                "Menciona 3 dias, MCMV e Mongaguá",
+                "CTA para lista ou WhatsApp",
+                "Tom dinâmico"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Crie uma legenda de depoimento de cliente para um casal que comprou o primeiro apartamento em Praia Grande com ajuda da Rayanne Gama Imóveis.",
+            "expected_output": "Legenda de prova social. Deve ter citação do cliente (ou estrutura de citação), contexto da história (primeiro imóvel, Praia Grande), resultado positivo. Tom caloroso e autêntico. CTA implícito ou suave ('você pode ser o próximo'). Não deve parecer fabricado.",
+            "assertions": [
+                "Estrutura de depoimento com citação",
+                "Contexto: primeiro imóvel, Praia Grande",
+                "Tom caloroso e autêntico",
+                "CTA suave",
+                "Não parece fabricado ou exagerado"
+            ],
+            "files": []
+        }
+    ]
+}

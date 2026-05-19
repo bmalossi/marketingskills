@@ -1,0 +1,31 @@
+{
+    "skill_name": "pricing-strategy-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis deve posicionar o preço de um apartamento de 2 dormitórios em Praia Grande no anúncio — mostrando ou escondendo o valor?",
+            "expected_output": "Deve recomendar mostrar o preço sempre que possível (filtra leads não qualificados, aumenta confiança). Deve justificar: leads que chegam sabendo o preço são mais qualificados. Deve mencionar exceções (imóvel de alto padrão onde o preço varia ou negociação é esperada). Deve orientar sobre como apresentar o preço: 'A partir de R$ X' vs. 'R$ X'.",
+            "assertions": [
+                "Recomenda mostrar o preço para a maioria dos imóveis",
+                "Justifica qualificação de leads como benefício",
+                "Menciona exceção para alto padrão",
+                "Orienta uso de 'A partir de' vs preço fixo",
+                "Tom prático e baseado em conversão"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como comunicar o custo real de um apartamento de R$ 300.000 de forma que pareça mais acessível para o comprador de primeiro imóvel?",
+            "expected_output": "Deve sugerir: mostrar parcela mensal estimada em vez do total (ou junto), destacar a entrada mínima real (ex: a partir de R$ 9.000 com FGTS), mostrar o custo em comparação com aluguel, mencionar o FGTS como redução do valor à vista. Deve ser honesto e não manipular — parcela estimada deve ser indicada como estimativa, com variações condicionadas à aprovação.",
+            "assertions": [
+                "Mostra parcela mensal como alternativa ao valor total",
+                "Destaca entrada mínima real",
+                "Compara com aluguel",
+                "Menciona FGTS como redutor do valor à vista",
+                "Honesto — indica que parcela é estimativa"
+            ],
+            "files": []
+        }
+    ]
+}

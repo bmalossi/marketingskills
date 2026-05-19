@@ -1,0 +1,47 @@
+{
+    "skill_name": "schema-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Gere o schema JSON-LD completo para a página de um apartamento de 2 dormitórios à venda no Guilhermina, Praia Grande, por R$ 295.000, com metragem de 65m².",
+            "expected_output": "Deve gerar JSON-LD válido com @type RealEstateListing. Deve incluir: name, description, url, price, priceCurrency (BRL), address completo (streetAddress, addressLocality: Praia Grande, addressRegion: SP, addressCountry: BR), numberOfRooms: 2, floorSize com valor e unitCode. Deve ser válido e testável no Google Rich Results Test.",
+            "assertions": [
+                "JSON-LD válido",
+                "@type RealEstateListing",
+                "price: 295000, priceCurrency: BRL",
+                "addressLocality: Praia Grande, addressRegion: SP",
+                "numberOfRooms: 2",
+                "floorSize com 65m²",
+                "Estrutura testável no Google Rich Results"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Gere o schema JSON-LD para a página institucional da Rayanne Gama Imóveis.",
+            "expected_output": "Deve gerar JSON-LD com @type RealEstateAgent. Deve incluir: name, url, telephone, address (Praia Grande, SP), areaServed (Praia Grande, São Vicente, Santos, Mongaguá), description com os diferenciais. Deve também incluir LocalBusiness como tipo adicional ou complementar.",
+            "assertions": [
+                "@type RealEstateAgent",
+                "name: Rayanne Gama Imóveis",
+                "address com Praia Grande, SP",
+                "areaServed com cidades da Baixada Santista",
+                "url do site",
+                "telephone incluído"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Como implementar o schema LocalBusiness para a Rayanne Gama Imóveis na home do site?",
+            "expected_output": "Deve gerar JSON-LD com @type LocalBusiness. Deve incluir: name, url, telephone, address, openingHours, geo (latitude/longitude de Praia Grande), sameAs com links de perfis relevantes (Google Maps, Instagram, Facebook). Deve ser incluído via tag <script type='application/ld+json'> no <head>.",
+            "assertions": [
+                "@type LocalBusiness",
+                "openingHours incluído",
+                "geo com coordenadas de Praia Grande",
+                "sameAs com redes sociais",
+                "Instrução de implementação via <script> no <head>"
+            ],
+            "files": []
+        }
+    ]
+}

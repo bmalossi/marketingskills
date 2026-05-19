@@ -1,0 +1,73 @@
+{
+    "skill_name": "revops-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como a Rayanne Gama Imóveis deve estruturar o processo de atendimento a leads que chegam pelo Instagram? Desde o primeiro contato até a proposta.",
+            "expected_output": "Deve mapear as etapas: lead chega via DM ou comentário → resposta em menos de 5 minutos → qualificação (o que busca, valor, prazo) → passagem para WhatsApp → agendamento de visita → envio de proposta. Deve definir responsáveis, SLAs e o que registrar no CRM. Deve mencionar que a velocidade de resposta é crítica (lead some se não respondido rápido).",
+            "assertions": [
+                "Mapeia etapas do lead Instagram até proposta",
+                "Menciona SLA de resposta rápida",
+                "Define passagem do Instagram para WhatsApp",
+                "Inclui qualificação do lead",
+                "Menciona registro em CRM ou planilha",
+                "Inclui agendamento de visita como etapa"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Quero criar um script de qualificação de lead no WhatsApp para a Rayanne Gama. O lead chegou de um anúncio de apartamento de 2 dormitórios em Praia Grande.",
+            "expected_output": "Deve criar sequência de perguntas de qualificação: objetivo (comprar ou alugar), prazo, faixa de valor, localização preferida, entrada disponível, situação de crédito. Tom informal e acolhedor. Deve fluir como uma conversa natural, não como formulário. Deve ter abertura calorosa e encerramento com próximo passo.",
+            "assertions": [
+                "Script em PT-BR coloquial",
+                "Perguntas de qualificação incluem: objetivo, prazo, valor, crédito",
+                "Tom informal e acolhedor (não robotizado)",
+                "Fluir como conversa, não formulário",
+                "Encerra com próximo passo claro (visita ou simulação)",
+                "Menciona apartamento 2 dormitórios, Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Defina os SLAs de atendimento para a Rayanne Gama Imóveis: tempo de resposta por canal, etapas do funil e critérios de qualificação.",
+            "expected_output": "Deve definir SLAs: Instagram/Facebook DM → resposta em até 10min; WhatsApp → até 5min; formulário site → até 30min. Deve definir critérios de SQL (lead qualificado): tem prazo, valor e intenção de compra. Deve separar por etapas: lead novo, contato feito, qualificado, visita agendada, proposta enviada, negociação, venda.",
+            "assertions": [
+                "Define SLAs por canal (Instagram, WhatsApp, formulário)",
+                "Tempo de resposta WhatsApp ≤ 10 minutos",
+                "Define critérios de SQL",
+                "Lista etapas do funil comercial",
+                "Inclui etapa de visita agendada",
+                "Inclui etapa de proposta enviada"
+            ],
+            "files": []
+        },
+        {
+            "id": 4,
+            "prompt": "Quais métricas a Rayanne Gama Imóveis deve acompanhar semanalmente para saber se o processo de vendas está funcionando?",
+            "expected_output": "Deve sugerir métricas operacionais: novos leads por canal, taxa de qualificação, tempo médio de resposta, visitas agendadas, propostas enviadas, vendas fechadas. Deve recomendar frequência de acompanhamento e responsável. Deve mencionar que custo por lead deve ser definido após primeiro mês conforme contexto mestre.",
+            "assertions": [
+                "Lista ao menos 5 métricas operacionais",
+                "Inclui novos leads, visitas, propostas e vendas",
+                "Recomenda responsável e frequência",
+                "Menciona custo por lead como KPI a calibrar",
+                "Métricas são acionáveis (levam a decisão)"
+            ],
+            "files": []
+        },
+        {
+            "id": 5,
+            "prompt": "Como estruturar um CRM simples para a Rayanne Gama Imóveis usando apenas planilha, sem software caro?",
+            "expected_output": "Deve criar estrutura de colunas para planilha: nome, canal de origem, data de entrada, etapa atual, próxima ação, data da próxima ação, responsável, observações. Deve definir etapas como colunas de status. Deve sugerir rotina de atualização. Deve ser simples o suficiente para ser mantido por uma corretora.",
+            "assertions": [
+                "Cria estrutura de colunas para planilha",
+                "Inclui canal de origem, etapa, próxima ação",
+                "Sugere rotina de atualização (diária ou por atendimento)",
+                "Simples de manter sem software especializado",
+                "Etapas do funil mapeadas como status"
+            ],
+            "files": []
+        }
+    ]
+}

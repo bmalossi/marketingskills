@@ -1,0 +1,47 @@
+{
+    "skill_name": "instagram-carousel-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie a estrutura completa de um carrossel de 7 slides para o Instagram da Rayanne Gama Imóveis sobre 'Como usar o FGTS para comprar apartamento em Praia Grande'.",
+            "expected_output": "Deve criar 7 slides com: Slide 1 (capa/gancho), Slides 2–6 (conteúdo em passos simples), Slide 7 (CTA). Capa deve parar o scroll com headline forte. Conteúdo deve explicar o FGTS passo a passo de forma visual. Cada slide tem título e texto de até 3 linhas. CTA no último slide para WhatsApp. Tom didático.",
+            "assertions": [
+                "7 slides estruturados",
+                "Slide 1: gancho/capa forte",
+                "Slides 2-6: conteúdo em passos",
+                "Slide 7: CTA para WhatsApp",
+                "Cada slide com máximo 3 linhas de texto",
+                "Explica FGTS de forma simples",
+                "Menciona Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie um carrossel de 5 slides apresentando um apartamento de 2 dormitórios no Caiçara, Praia Grande, R$ 310.000.",
+            "expected_output": "Slide 1: apresentação do imóvel com foto principal e headline. Slides 2–4: detalhes (localização, cômodos, financiamento). Slide 5: CTA para visita. Cada slide com texto sucinto e espaço para imagem. Tom empolgante mas honesto. Valores e localização corretos.",
+            "assertions": [
+                "5 slides com progressão lógica",
+                "Slide 1: apresentação com gancho",
+                "Slides 2-4: detalhes do imóvel",
+                "Slide 5: CTA para visita",
+                "Menciona Caiçara, Praia Grande, R$ 310.000",
+                "Tom honesto, sem superlativos"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Crie um carrossel respondendo a objeção: 'Não tenho entrada para comprar um imóvel'.",
+            "expected_output": "Carrossel de objeção. Slide 1: valida a preocupação ('Muita gente pensa que precisa de muito dinheiro...'). Slides intermediários: opções reais (FGTS como entrada, MCMV, financiamento de até 90%). Slide final: CTA para simular gratuitamente. Tom: empático, depois esclarecedor. Não minimizar a preocupação.",
+            "assertions": [
+                "Slide 1 valida a preocupação sem minimizar",
+                "Apresenta opções reais (FGTS, MCMV, 90% financiamento)",
+                "Tom empático antes de esclarecedor",
+                "CTA final para simulação gratuita",
+                "Menciona correspondente bancário como facilitador"
+            ],
+            "files": []
+        }
+    ]
+}

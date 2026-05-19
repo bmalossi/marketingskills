@@ -6,13 +6,18 @@ Para uma skill ser considerada pronta para produção (status: `approved`):
 
 - [ ] Todos os blocos obrigatórios preenchidos (ver `conventions.md`)
 - [ ] Versão >= v1.0
-- [ ] Mínimo 2 exemplos aprovados em `examples/`
+- [ ] Pasta `evals/` presente com ao menos 3 casos de teste imobiliários em PT-BR
+- [ ] Todos os evals refletem cenários da Rayanne Gama Imóveis (sem conteúdo SaaS/genérico)
+- [ ] Pasta `references/` presente com ao menos 1 arquivo de material de apoio
+- [ ] Conteúdo de references/ consistente com o contexto mestre
+- [ ] Mínimo 2 exemplos aprovados em `examples/` (quando aplicável)
 - [ ] Rubrica de avaliação presente no arquivo
 - [ ] Score médio >= 8.0/10 na rubrica geral (`evals/rubrica-geral.md`)
 - [ ] Nenhum critério crítico abaixo de 7.0/10
 - [ ] Revisão comercial feita (Rayanne Gama Imóveis)
 - [ ] Revisão técnica feita (Automab.dev)
 - [ ] ADR registrado se a skill representar decisão arquitetural
+
 
 ## Contexto (context/)
 

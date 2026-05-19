@@ -1,0 +1,46 @@
+{
+    "skill_name": "copy-editing-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Revisar o seguinte texto: 'Temos o prazer de comunicar a V.Sa. que dispomos de excelente imóvel residencial com 2 suítes no bairro Caiçara, na cidade de Praia Grande, disponível para comercialização pelo valor de R$ 350.000,00 (trezentos e cinquenta mil reais).'",
+            "expected_output": "Deve identificar problemas: tom excessivamente formal e burocrático, invertido para imobiliária acolhedora. Deve reescrever em PT-BR coloquial e próximo, mantendo as informações essenciais. Versão corrigida deve ter: tipologia clara, bairro, valor e CTA. Sem erros gramaticais. Tom da Rayanne Gama: próximo e acolhedor.",
+            "assertions": [
+                "Identifica formalidade excessiva como problema",
+                "Reescreve em tom próximo e acolhedor",
+                "Mantém todas as informações: 2 suítes, Caiçara, Praia Grande, R$ 350.000",
+                "Adiciona CTA",
+                "Sem erros gramaticais na versão revisada"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Revise esse post de Instagram: 'Apartamento lindo em Praia Grande!!! Imperdível!!! 3 quartos!!! Chama!!! 🔥🔥🔥🔥🔥'",
+            "expected_output": "Deve identificar: pontuação excessiva, emojis em excesso (5, limite é 2), superlativos sem evidência ('lindo', 'imperdível'), falta de informações específicas (bairro, valor, financiamento). Deve reescrever com: informações concretas, tom adequado, máximo 2 emojis, CTA claro.",
+            "assertions": [
+                "Identifica pontuação excessiva",
+                "Identifica emojis em excesso",
+                "Identifica falta de informações específicas",
+                "Versão revisada tem informações concretas",
+                "Máximo 2 emojis na versão revisada",
+                "CTA claro"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Revise a seguinte descrição de imóvel para uso no site: 'Lindo apto 2/4 suíte home office varanda gourmet armários planejados cozinha americana lazer completo piscina academia salão jogos churrasqueira quadra tênis financia aceita troca escriturado.'",
+            "expected_output": "Deve identificar: lista de atributos sem estrutura, sem verbo, sem contexto de localização e valor, sem CTA. Deve reescrever em parágrafos fluentes com: apresentação do imóvel, diferenciais em texto, localização, condições e CTA. Gramática e ortografia corretas.",
+            "assertions": [
+                "Identifica ausência de estrutura narrativa",
+                "Reescreve em parágrafos fluentes",
+                "Mantém todos os atributos do imóvel",
+                "Adiciona localização e condições",
+                "Versão tem CTA",
+                "Gramática e ortografia corretas"
+            ],
+            "files": []
+        }
+    ]
+}

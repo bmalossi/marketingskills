@@ -1,0 +1,70 @@
+{
+  "skill_name": "ab-test-setup-imobiliario",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Quero testar dois títulos na landing page de lançamento de um empreendimento MCMV em Praia Grande. Título A: 'Apartamento em Praia Grande com financiamento facilitado'. Título B: 'Descubra como comprar seu apartamento com parcelas que cabem no bolso'. Temos 500 visitas por semana e conversão atual de 3%.",
+      "expected_output": "Deve ler o contexto mestre. Deve construir hipótese: Porque [visitantes de primeiro imóvel têm medo do financiamento], acreditamos que [título focado em parcela acessível] causará [maior conversão do formulário], que mediremos por [taxa de submissão do formulário]. Deve calcular tamanho de amostra necessário com base em 500 visitas/semana e 3% baseline. Deve definir duração mínima do teste. Deve alertar sobre não concluir antes do prazo.",
+      "assertions": [
+        "Constrói hipótese com observação, crença, resultado e métrica",
+        "Calcula ou referencia tamanho de amostra com 500 visitas/semana e 3% baseline",
+        "Define duração mínima do teste",
+        "Alerta contra conclusão precoce",
+        "Define métrica principal (submissão do formulário)",
+        "Contexto imobiliário PT-BR (MCMV, Praia Grande)"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Quero testar 3 versões de CTA no botão de contato do site: 'Fale conosco', 'Quero visitar o imóvel' e 'Simular meu financiamento'. Qual variante devo testar e como?",
+      "expected_output": "Deve identificar como teste A/B/n (3 variantes). Deve alertar que 3 variantes requerem mais tráfego que um simples A/B. Deve recomendar priorizar 2 variantes com maior contraste (ex: 'Fale conosco' vs. 'Simular meu financiamento' — uma genérica vs. uma orientada à intenção). Deve definir a métrica (qual CTA leva mais à conversão — click no WhatsApp ou formulário). Deve mencionar o contexto da Rayanne Gama: a persona de primeiro imóvel tem maior intenção de simulação.",
+      "assertions": [
+        "Identifica como A/B/n (3 variantes)",
+        "Alerta sobre maior necessidade de tráfego",
+        "Recomenda reduzir para 2 variantes mais contrastantes",
+        "Define métrica principal de conversão",
+        "Considera perfil da persona (primeiro imóvel, simulação)",
+        "Contexto imobiliário PT-BR"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "O teste de headline da página de imóveis está rodando há 5 dias e a variante B está ganhando com 92% de confiança. Posso encerrar?",
+      "expected_output": "Deve alertar sobre o problema de olhar para o resultado cedo (peeking). Deve explicar que 92% ainda é abaixo do limiar de 95%. Deve recomendar continuar pelo prazo pré-definido. Deve explicar por que resultados preliminares podem enganar (efeito de novidade, variação de tráfego por dia da semana). Contexto imobiliário: visitantes de final de semana podem ter perfil diferente dos de semana.",
+      "assertions": [
+        "Alerta sobre peeking problem",
+        "Menciona que 92% < 95% (limiar mínimo)",
+        "Recomenda continuar pelo prazo definido",
+        "Explica variação por dia da semana como fator",
+        "Contexto imobiliário (tráfego diferente em fds)"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Qual é o primeiro teste A/B que a Rayanne Gama Imóveis deveria fazer no site para ter maior impacto rápido?",
+      "expected_output": "Deve sugerir: teste do botão de WhatsApp (texto, cor, posição) como primeiro teste, pois é o principal evento de conversão. Deve justificar pela capacidade de gerar resultado rápido com tráfego existente. Deve criar hipótese completa e plano do teste. Deve mencionar que a meta do contexto mestre é > 4% de clique no WhatsApp.",
+      "assertions": [
+        "Sugere testemundar o botão WhatsApp como prioridade",
+        "Justifica pelo impacto na métrica principal",
+        "Cria hipótese completa",
+        "Menciona meta de > 4% de clique no WhatsApp",
+        "Plano de teste realista para o tráfego da Rayanne Gama"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "me ajuda a fazer um teste",
+      "expected_output": "Deve solicitar informações mínimas: página ou peça a testar, hipótese, métrica principal, público, tempo disponível para o teste.",
+      "assertions": [
+        "Solicita informações mínimas",
+        "Pede ao menos: página, hipótese e métrica",
+        "Não começa a gerar plano sem contexto"
+      ],
+      "files": []
+    }
+  ]
+}

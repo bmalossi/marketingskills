@@ -1,0 +1,32 @@
+{
+    "skill_name": "social-reels-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie um script de reels de 30 segundos para a Rayanne Gama Imóveis respondendo a dúvida: 'Quanto preciso ter de entrada para comprar um apartamento em Praia Grande?'",
+            "expected_output": "Script com gancho na cena 1 ('Você acha que precisa de muito dinheiro? Calma'). Conteúdo: mínimo 3%, FGTS pode complementar, MCMV pode ter subsídio. Conclusão: 'A gente simula de graça'. Cenas descritas (rosto, texto na tela). Legenda sugerida para acompanhar o reels. Tom didático e dinâmico. Máximo 30 segundos.",
+            "assertions": [
+                "Gancho forte nos primeiros 3 segundos",
+                "Menciona 3% como entrada mínima, FGTS e MCMV",
+                "CTA para simulação gratuita",
+                "Cenas descritas para gravação",
+                "Legenda sugerida",
+                "Máximo 30 segundos"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie 5 ideias de reels que a Rayanne Gama Imóveis pode gravar com o celular, sem precisar de produção cara.",
+            "expected_output": "Deve sugerir reels de baixa produção mas alto valor: tour rápido de imóvel (selfie no imóvel), 'pergunta de cliente' respondida em vídeo, bastidores de visita, dica rápida de financiamento, reação a mito sobre imóvel ('isso é mito ou verdade'). Cada ideia com gancho de frase de abertura e CTA.",
+            "assertions": [
+                "5 ideias executáveis com celular",
+                "Sem necessidade de produção cara",
+                "Cada ideia com frase de abertura",
+                "Cada ideia com CTA",
+                "Variedade de temas (tour, educação, bastidores)"
+            ],
+            "files": []
+        }
+    ]
+}

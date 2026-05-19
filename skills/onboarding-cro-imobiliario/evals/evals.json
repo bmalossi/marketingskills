@@ -1,0 +1,33 @@
+{
+    "skill_name": "onboarding-cro-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Como deve ser a experiência do lead nas primeiras 24 horas após entrar em contato com a Rayanne Gama Imóveis pelo site?",
+            "expected_output": "Deve mapear: confirmação imediata de recebimento (WhatsApp ou email), qualificação no WhatsApp em até 30 minutos, envio de imóveis relevantes baseados no perfil, follow-up em 24h para quem não agendou visita. Deve definir mensagens padronizadas para cada etapa. Tom acolhedor e ágil. Deve mencionar que velocidade de resposta é crítica.",
+            "assertions": [
+                "Fluxo das primeiras 24 horas mapeado",
+                "Confirmação imediata de recebimento",
+                "Qualificação em até 30 minutos",
+                "Follow-up para quem não agendou",
+                "Mensagens padronizadas sugeridas",
+                "Velocidade de resposta destacada"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Qual deve ser a sequência de mensagens no WhatsApp para um lead novo que acabou de mandar mensagem pelo botão do site?",
+            "expected_output": "Sequência de 3-4 mensagens: 1) boas-vindas imediatas e apresentação breve, 2) pergunta de qualificação aberta, 3) com base na resposta, envio de imóveis relevantes, 4) pergunta sobre disponibilidade para visita. Tom informal. Deve fluir naturalmente, não parecer automático.",
+            "assertions": [
+                "3-4 mensagens em sequência lógica",
+                "Mensagem 1: boas-vindas imediatas",
+                "Mensagem 2: qualificação aberta",
+                "Mensagem final: próximo passo (visita ou simulação)",
+                "Tom informal e natural",
+                "Não parece automatizado"
+            ],
+            "files": []
+        }
+    ]
+}

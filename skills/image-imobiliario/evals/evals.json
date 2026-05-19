@@ -1,0 +1,32 @@
+{
+    "skill_name": "image-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quais diretrizes a Rayanne Gama Imóveis deve seguir para fotografar imóveis para anúncio no Instagram, ZAP e VivaReal?",
+            "expected_output": "Deve cobrir: fotos horizontais para portais (16:9), fotos quadradas/verticais para Instagram. Número mínimo de fotos (ao menos 10 por imóvel). Ambientes a fotografar obrigatoriamente: exterior, sala, cozinha, quartos, banheiro, varanda se houver. Qualidade: luz natural, ambiente arrumado, sem pessoas. Primeira foto: exterior ou ambiente mais amplo. Evitar: foto borrada, escura, com espelho mostrando fotógrafo.",
+            "assertions": [
+                "Orienta formato por canal (portais vs. Instagram)",
+                "Mínimo de fotos por imóvel",
+                "Lista ambientes obrigatórios",
+                "Regras de qualidade (luz, organização)",
+                "Define primeira foto ideal",
+                "Lista erros a evitar"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como a Rayanne Gama Imóveis deve criar artes gráficas para posts de Instagram que não pareçam amadoras?",
+            "expected_output": "Deve recomendar: usar paleta de cores consistente com a marca, tipografia legível em mobile, mínimo de texto na arte (priorizar imagem do imóvel), logo discreto no canto, usar templates no Canva para consistência. Deve mencionar que foto real do imóvel performa melhor que arte elaborada para posts de imóvel. Para posts educativos: arte com texto pode ser eficaz.",
+            "assertions": [
+                "Paleta de cores consistente com marca",
+                "Tipografia legível em mobile",
+                "Mínimo de texto na arte",
+                "Menciona Canva como ferramentas acessível",
+                "Foto real de imóvel vs. arte — quando usar cada uma"
+            ],
+            "files": []
+        }
+    ]
+}

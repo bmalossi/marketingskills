@@ -1,0 +1,33 @@
+{
+    "skill_name": "marketing-ideas-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Me dê 10 ideias de marketing criativas para a Rayanne Gama Imóveis gerar mais leads em Praia Grande no próximo mês.",
+            "expected_output": "Deve gerar 10 ideias variadas e aplicáveis: live de tira-dúvidas sobre financiamento, tour virtual de imóveis, parceria com empresas locais, ação no bairro Guilhermina, conteúdo sobre valorização da Praia Grande, quiz de perfil de imóvel ideal, campanha de indicação, depoimento em vídeo de clientes, live com correspondente bancário, post 'antes e depois' de cliente. Cada ideia com canal e esforço estimado.",
+            "assertions": [
+                "10 ideias variadas",
+                "Ao menos 3 ideias para Instagram",
+                "Inclui ao menos 1 ideia de parceria local",
+                "Inclui ao menos 1 ideia com correspondente bancário",
+                "Cada ideia com canal e esforço estimado",
+                "Ideias aplicáveis para imobiliária de médio porte",
+                "Menciona Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Sugira uma ação de marketing de baixo custo que a Rayanne Gama Imóveis pode executar em 1 semana para gerar leads.",
+            "expected_output": "Deve sugerir ação executável em 1 semana sem grande investimento: ex. live de tira-dúvidas no Instagram, post carrossel viral sobre FGTS, campanha de indicação com bônus, parceria com condomínio. Deve detalhar: o que fazer, quem faz, quando, qual resultado esperar. Custo estimado baixo (menos de R$ 500).",
+            "assertions": [
+                "Ação executável em 1 semana",
+                "Custo estimado baixo (mencionado)",
+                "Detalha quem faz e quando",
+                "Resultado esperado definido",
+                "Aplicável para imobiliária de médio porte"
+            ],
+            "files": []
+        }
+    ]
+}

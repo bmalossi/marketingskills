@@ -1,0 +1,46 @@
+{
+    "skill_name": "sales-enablement-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Crie um roteiro de apresentação de imóvel para o corretor usar na visita presencial. Imóvel: apartamento de 2 dormitórios em Guilhermina, Praia Grande, R$ 280.000.",
+            "expected_output": "Deve criar roteiro em etapas: chegada e apresentação pessoal, percurso pelos cômodos com pontos a destacar, momento de perguntas e qualificação avançada, apresentação de condições financeiras, próximo passo. Tom amigável e orientador. Deve incluir o que não fazer (não pressionar, não exagerar). Menciona correspondente bancário ao falar de financiamento.",
+            "assertions": [
+                "Roteiro em etapas lógicas",
+                "Inclui chegada, percurso e condições",
+                "Menciona correspondente bancário",
+                "Tom amigável, não pressionador",
+                "Inclui próximo passo pós-visita",
+                "Menciona Guilhermina, Praia Grande"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Crie um script de resposta para o corretor quando o lead diz 'vou pensar mais um pouco'.",
+            "expected_output": "Script de resposta a objeção de adiamento. Deve: validar a decisão (é importante mesmo pensar bem), perguntar o que ainda não está claro, oferecer ajuda para esclarecer. Não deve pressionar ou criar urgência falsa. Deve abrir espaço para o lead falar. Tom empático.",
+            "assertions": [
+                "Valida a decisão do lead sem pressionar",
+                "Faz pergunta aberta para entender o que falta",
+                "Oferece ajuda real",
+                "Não cria urgência falsa",
+                "Tom empático"
+            ],
+            "files": []
+        },
+        {
+            "id": 3,
+            "prompt": "Crie um conjunto de materiais que o corretor deve enviar pelo WhatsApp após a visita a um apartamento de 2 dormitórios em Praia Grande.",
+            "expected_output": "Deve listar os materiais: mensagem de agradecimento pela visita, resumo do imóvel (principais informações em texto), link do imóvel no site ou fotos, informações sobre financiamento/condições, contato do correspondente bancário, próximo passo claro (proposta, simulação, novo imóvel). Cada material com texto sugerido.",
+            "assertions": [
+                "Lista ao menos 5 materiais/ações pós-visita",
+                "Mensagem de agradecimento",
+                "Resumo do imóvel",
+                "Informação de financiamento",
+                "Próximo passo claro",
+                "Textos sugeridos para WhatsApp"
+            ],
+            "files": []
+        }
+    ]
+}

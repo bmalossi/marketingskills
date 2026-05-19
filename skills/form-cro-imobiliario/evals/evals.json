@@ -1,0 +1,31 @@
+{
+    "skill_name": "form-cro-imobiliario",
+    "evals": [
+        {
+            "id": 1,
+            "prompt": "Quantos campos deve ter o formulário de contato da Rayanne Gama Imóveis para maximizar a taxa de conversão?",
+            "expected_output": "Deve recomendar: máximo 3–4 campos para formulário de topo de funil (nome, WhatsApp, o que procura). Mais campos para formulário de simulação de financiamento (pode ter renda). Deve justificar: cada campo adicional reduz conversão em até 10–15%. Deve sugerir formulário progressivo (pede mais dados depois). Deve mencionar que WhatsApp é preferível a email para o público da Rayanne Gama.",
+            "assertions": [
+                "Recomenda máximo 3-4 campos no formulário principal",
+                "Justifica redução de conversão por campo adicional",
+                "Menciona WhatsApp como campo prioritário sobre email",
+                "Sugere formulário progressivo",
+                "Diferencia formulário de topo vs. simulação"
+            ],
+            "files": []
+        },
+        {
+            "id": 2,
+            "prompt": "Como melhorar a taxa de conversão do formulário de contato do site da Rayanne Gama Imóveis?",
+            "expected_output": "Deve sugerir: reduzir campos, CTA no botão específico ('Quero conhecer imóveis' vs. 'Enviar'), texto próximo ao formulário com prova social ou garantia, posicionamento acima da dobra em mobile, botão de cor contrastante, placeholder de ajuda nos campos. Deve mencionar testes A/B para validar mudanças.",
+            "assertions": [
+                "CTA do botão específico e orientado à ação",
+                "Prova social próxima ao formulário",
+                "Posicionamento mobile acima da dobra",
+                "Placeholder de ajuda nos campos",
+                "Menciona A/B test para validar"
+            ],
+            "files": []
+        }
+    ]
+}

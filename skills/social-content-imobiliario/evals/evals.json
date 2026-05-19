@@ -1,0 +1,104 @@
+{
+  "skill_name": "social-content-imobiliario",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Crie 5 ideias de post para o Instagram da Rayanne Gama Imóveis voltadas para quem está pensando em comprar o primeiro apartamento em Praia Grande.",
+      "expected_output": "Deve ler o contexto mestre. Deve gerar 5 ideias usando os pilares: educativo, imóvel, financiamento, bairro, dúvida frequente. Cada ideia deve ter um gancho forte, identificar a persona (comprador do primeiro imóvel), sugerir formato adequado ao Instagram (carrossel, reels, post estático). Tom deve ser próximo, acolhedor, sem clichês ('oportunidade única', 'realize o sonho'). CTA deve direcionar para WhatsApp ou agendamento de visita.",
+      "assertions": [
+        "Gera exatamente 5 ideias ou mais",
+        "Menciona Praia Grande como localização",
+        "Usa tom próximo e orientador sem sensacionalismo",
+        "Inclui ao menos um post sobre financiamento ou MCMV",
+        "Cada ideia tem gancho + formato + CTA",
+        "Não usa 'oportunidade única' nem 'realize o sonho da casa própria'",
+        "Direciona para WhatsApp ou agendamento"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Crie um calendário editorial de conteúdo para o mês de junho com 3 posts por semana para a Rayanne Gama Imóveis. Foco: investidores que querem imóvel na Baixada Santista para renda.",
+      "expected_output": "Deve identificar a persona investidor. Deve distribuir os 12+ posts pelos pilares: educação sobre investimento imobiliário, valorização de Praia Grande, retorno de aluguel, imóveis disponíveis. Deve variar os formatos (carrossel, reels, post único, stories). Deve ter progressão lógica ao longo do mês. CTA deve levar o investidor a entrar em contato ou agendar conversa.",
+      "assertions": [
+        "Identifica persona investidor",
+        "Distribui posts ao longo de 4 semanas",
+        "Varia formatos entre carrossel, reels e post único",
+        "Inclui temas de valorização de Praia Grande",
+        "Inclui temas de retorno de aluguel",
+        "Cada post tem CTA claro",
+        "Tom é profissional mas acessível"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Quero um roteiro para um reels curto (até 30 segundos) explicando como funciona o FGTS para compra de imóvel. Público: jovens de 25 a 35 anos em Praia Grande.",
+      "expected_output": "Deve gerar roteiro com gancho nos primeiros 3 segundos, explicação clara do FGTS em linguagem simples (sem juridiquês), máximo 3 etapas, CTA para WhatsApp ou comentário. Não usar termos técnicos sem explicação. Deve ser compreensível por leigos. Duração compatível com 30 segundos. Tom dinâmico e acolhedor.",
+      "assertions": [
+        "Gancho forte nos primeiros 3 segundos",
+        "Explica FGTS em linguagem simples",
+        "Máximo 3 etapas ou pontos principais",
+        "CTA no final (WhatsApp ou comentário)",
+        "Formato compatível com reels (cenas/falas descritas)",
+        "Não usa juridiquês",
+        "Menciona Praia Grande ou Baixada Santista"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "me dá umas ideias de post",
+      "expected_output": "Deve solicitar as informações mínimas: rede social, público, objetivo e tema. Não deve gerar conteúdo genérico sem contexto. Pode apresentar exemplos de perguntas para clarificar o pedido.",
+      "assertions": [
+        "Pede as informações mínimas antes de gerar",
+        "Solicita ao menos: rede social, público ou objetivo",
+        "Não entrega conteúdo genérico sem contexto",
+        "Mantém tom educativo e prestativo"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Crie uma sequência de 3 stories para a Rayanne Gama Imóveis apresentando um apartamento de 2 dormitórios em Guilhermina, Praia Grande, por R$ 320.000, com financiamento disponível.",
+      "expected_output": "Deve criar 3 stories em sequência lógica: apresentação do imóvel, destaque do diferencial (financiamento, localização), CTA para ação imediata (WhatsApp). Cada story deve ser curto e dinâmico. Tom empolgante mas honesto. Deve mencionar financiamento e facilidade de aprovação. CTA final deve ser botão ou resposta para WhatsApp.",
+      "assertions": [
+        "Cria exatamente 3 stories ou sequência em 3 partes",
+        "Menciona Guilhermina, Praia Grande",
+        "Menciona o valor R$ 320.000",
+        "Destaca financiamento disponível",
+        "CTA final direciona para WhatsApp",
+        "Tom honesto, sem superlativos vazios",
+        "Formato adequado para stories (curto, visual)"
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Quero postar algo sobre 'realizar o sonho da casa própria'. Pode me ajudar?",
+      "expected_output": "Deve sinalizar que 'realizar o sonho da casa própria' é um clichê a evitar conforme as regras da marca. Deve sugerir abordagem alternativa que transmita a mesma mensagem de forma mais autêntica e específica ao contexto da Rayanne Gama Imóveis. Deve oferecer versão melhorada sem o clichê.",
+      "assertions": [
+        "Sinaliza que o termo é clichê a evitar",
+        "Oferece alternativa mais autêntica",
+        "Mantém o sentido emocional sem o jargão",
+        "Tom educativo, não julgador",
+        "Versão alternativa menciona Praia Grande ou contexto real"
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Crie um post educativo para Facebook sobre como funciona o financiamento imobiliário pela Caixa Econômica Federal, para o público de 35 a 55 anos da Rayanne Gama Imóveis.",
+      "expected_output": "Deve identificar persona família buscando upgrade ou investidor. Deve explicar financiamento Caixa em etapas simples. Formato Facebook: texto mais longo que Instagram, pode ter bullets. Tom didático e confiante. Mencionar que a Rayanne Gama tem correspondente bancário direto como diferencial. CTA para contato ou simulação.",
+      "assertions": [
+        "Adapta linguagem para Facebook (texto mais longo)",
+        "Explica financiamento Caixa de forma simples",
+        "Menciona correspondente bancário como diferencial",
+        "Público correto (35 a 55 anos, família)",
+        "CTA para contato ou simulação",
+        "Tom didático sem juridiquês"
+      ],
+      "files": []
+    }
+  ]
+}
